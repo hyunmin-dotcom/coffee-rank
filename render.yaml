@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: coffee-rank
+    runtime: static
+    buildCommand: "echo no-build-needed"
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    autoDeploy: true
+    headers:
+      - path: /data/rankings.json
+        name: Cache-Control
+        value: no-cache

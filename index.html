@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COFFEE RANK | 실시간 커피 검색 순위 — 생두·원두·카페·머신·핸드드립 도구</title>
+<meta name="description" content="COFFEE RANK는 네이버 검색 트렌드를 기반으로 생두, 원두, 카페, 커피툴, 상업용·홈카페 장비의 실시간 인기 순위를 제공합니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0E1A15;
+    --panel:#132420;
+    --panel-alt:#1A342B;
+    --ink:#F2EAD8;
+    --ink-dim:#C9BFA6;
+    --muted:#8CA294;
+    --gold:#C7A25A;
+    --gold-bright:#E8CB84;
+    --burgundy:#7E2A35;
+    --sage:#8FB79A;
+    --rose:#C97B7B;
+    --line:rgba(199,162,90,0.22);
+    --line-strong:rgba(199,162,90,0.45);
+    --serif-deco:'Poiret One', sans-serif;
+    --serif-italic:'Cormorant Garamond', serif;
+    --sans:'Jost', sans-serif;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--ink); font-family:var(--sans); -webkit-font-smoothing:antialiased;}
+  body{
+    background-image:
+      radial-gradient(ellipse 900px 500px at 50% -10%, rgba(199,162,90,0.09), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 110%, rgba(126,42,53,0.10), transparent 60%);
+    background-attachment: fixed;
+  }
+  ::selection{ background:var(--gold); color:#0E1A15; }
+  a{ color:inherit; }
+
+  /* ---------- outer poster frame ---------- */
+  body{ padding:14px; }
+  .page-frame{
+    position:relative; border:1px solid var(--line-strong); min-height:calc(100vh - 28px);
+  }
+  .page-frame::before{
+    content:""; position:absolute; inset:6px; border:1px solid var(--line); pointer-events:none;
+  }
+  .corner-tick{ position:absolute; width:16px; height:16px; pointer-events:none; z-index:2; }
+  .corner-tick.tl{ top:-1px; left:-1px; border-top:2px solid var(--gold); border-left:2px solid var(--gold); }
+  .corner-tick.tr{ top:-1px; right:-1px; border-top:2px solid var(--gold); border-right:2px solid var(--gold); }
+  .corner-tick.bl{ bottom:-1px; left:-1px; border-bottom:2px solid var(--gold); border-left:2px solid var(--gold); }
+  .corner-tick.br{ bottom:-1px; right:-1px; border-bottom:2px solid var(--gold); border-right:2px solid var(--gold); }
+
+  /* subtle paper-grain overlay for tactile poster feel */
+  .grain{
+    position:fixed; inset:0; pointer-events:none; z-index:999; opacity:0.05; mix-blend-mode:overlay;
+  }
+
+  /* ---------- decorative fan / sunburst corner ---------- */
+  .fan-corner{ position:absolute; width:120px; height:120px; opacity:0.5; pointer-events:none; }
+  .fan-corner.tl{ top:10px; left:10px; }
+  .fan-corner.tr{ top:10px; right:10px; transform:scaleX(-1); }
+
+  /* ---------- crest ---------- */
+  .crest{ display:flex; justify-content:center; margin-bottom:14px; opacity:0.92; }
+
+  @keyframes fadeUp{
+    from{ opacity:0; transform:translateY(6px); }
+    to{ opacity:1; transform:translateY(0); }
+  }
+  tbody tr{ animation: fadeUp .38s ease both; }
+  tbody tr:nth-child(1){ animation-delay:.02s; } tbody tr:nth-child(2){ animation-delay:.05s; }
+  tbody tr:nth-child(3){ animation-delay:.08s; } tbody tr:nth-child(4){ animation-delay:.11s; }
+  tbody tr:nth-child(5){ animation-delay:.14s; } tbody tr:nth-child(6){ animation-delay:.17s; }
+  tbody tr:nth-child(7){ animation-delay:.20s; } tbody tr:nth-child(8){ animation-delay:.23s; }
+  tbody tr:nth-child(9){ animation-delay:.26s; } tbody tr:nth-child(10){ animation-delay:.29s; }
+
+  /* ---------- header ---------- */
+  header{
+    position:relative;
+    padding:52px 24px 30px;
+    text-align:center;
+    border-bottom:1px solid var(--line);
+    overflow:hidden;
+  }
+  .eyebrow{
+    font-family:var(--serif-italic); font-style:italic; font-weight:400; font-size:15px;
+    color:var(--gold-bright); letter-spacing:0.04em; margin-bottom:6px;
+  }
+  .wordmark{
+    font-family:var(--serif-deco); font-size:56px; letter-spacing:0.14em; font-weight:400;
+    color:var(--ink); text-transform:uppercase;
+    text-shadow: 0 0 28px rgba(199,162,90,0.18);
+  }
+  .rule{
+    display:flex; align-items:center; justify-content:center; gap:14px;
+    margin:16px auto 0; max-width:460px;
+  }
+  .rule.thick .line{ height:2px; }
+  .rule .line{ flex:1; height:1px; background:linear-gradient(90deg, transparent, var(--line-strong), transparent); }
+  .rule .diamond{ width:7px; height:7px; background:var(--gold); transform:rotate(45deg); flex-shrink:0; }
+  .rule-pair{ display:flex; flex-direction:column; gap:5px; align-items:center; margin-top:16px; }
+  .rule-pair .rule{ margin-top:0; }
+  .rule-pair .rule.sub{ max-width:220px; opacity:0.6; }
+  .tagline{
+    margin-top:16px; font-family:var(--serif-italic); font-style:italic; font-size:17px;
+    color:var(--ink-dim); letter-spacing:0.01em;
+  }
+  .status-row{
+    margin-top:22px; display:flex; align-items:center; justify-content:center; gap:10px;
+    font-family:var(--sans); font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted);
+  }
+  .status-row .dot{ width:6px; height:6px; border-radius:50%; background:var(--sage); box-shadow:0 0 8px var(--sage); animation:pulse 2s ease-in-out infinite; }
+  @keyframes pulse{ 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+  .status-row .clock{ color:var(--gold-bright); font-weight:500; }
+
+  /* ---------- ticker ---------- */
+  .ticker-wrap{
+    background:var(--panel); border-bottom:1px solid var(--line); overflow:hidden; white-space:nowrap; position:relative; height:44px;
+  }
+  .ticker-wrap::before, .ticker-wrap::after{ content:""; position:absolute; top:0; bottom:0; width:70px; z-index:2; pointer-events:none; }
+  .ticker-wrap::before{ left:0; background:linear-gradient(90deg, var(--panel), transparent); }
+  .ticker-wrap::after{ right:0; background:linear-gradient(270deg, var(--panel), transparent); }
+  .ticker-track{ display:inline-flex; align-items:center; height:44px; animation: scroll-left 48s linear infinite; }
+  .ticker-wrap:hover .ticker-track{ animation-play-state: paused; }
+  @keyframes scroll-left{ 0%{ transform:translateX(0); } 100%{ transform:translateX(-50%); } }
+  .ticker-item{
+    display:inline-flex; align-items:center; gap:9px; font-family:var(--sans); font-weight:400; font-size:12.5px;
+    letter-spacing:0.03em; padding:0 20px; position:relative;
+  }
+  .ticker-item::after{ content:"◆"; position:absolute; right:-3px; font-size:6px; color:var(--gold); opacity:0.6; }
+  .ticker-item .cat{ color:var(--muted); text-transform:uppercase; font-size:10px; letter-spacing:0.08em; }
+  .ticker-item .name-link{ color:var(--ink); }
+  .ticker-item .delta.up{ color:var(--sage); } .ticker-item .delta.down{ color:var(--rose); } .ticker-item .delta.flat{ color:var(--muted); }
+
+  /* ---------- source note ---------- */
+  .controls{ padding:18px 24px; text-align:center; border-bottom:1px solid var(--line); }
+  .source-note{ font-family:var(--serif-italic); font-style:italic; font-size:13.5px; color:var(--ink-dim); margin-top:14px; }
+  .period-tabs{ display:inline-flex; gap:6px; }
+  .period-tabs button{
+    font-family:var(--sans); font-weight:400; font-size:12px; letter-spacing:0.1em; text-transform:uppercase;
+    padding:8px 18px; border-radius:2px; border:1px solid var(--line); background:transparent;
+    color:var(--ink-dim); cursor:pointer; transition:all .18s ease;
+  }
+  .period-tabs button.active{ background:var(--burgundy); border-color:var(--burgundy); color:var(--ink); }
+  .period-tabs button:not(.active):hover{ border-color:var(--gold); color:var(--gold-bright); }
+
+  /* ---------- category nav ---------- */
+  .cat-groups{ padding:26px 24px 10px; max-width:1080px; margin:0 auto; display:flex; flex-direction:column; gap:13px; }
+  .cat-group-row{ display:flex; align-items:center; gap:11px; flex-wrap:wrap; justify-content:center; }
+  .cat-group-label{
+    font-family:var(--serif-italic); font-style:italic; font-size:14px; color:var(--gold-bright);
+    min-width:92px; text-align:right; padding-right:4px;
+  }
+  .chip{
+    position:relative; overflow:hidden;
+    font-family:var(--sans); font-size:12.5px; font-weight:400; letter-spacing:0.03em;
+    padding:7px 16px; border-radius:2px; border:1px solid var(--line); background:transparent;
+    color:var(--ink-dim); cursor:pointer; transition:border-color .18s ease, color .18s ease; white-space:nowrap;
+  }
+  .chip::after{
+    content:""; position:absolute; left:50%; bottom:0; width:0; height:1px; background:var(--gold-bright);
+    transition:all .25s ease; transform:translateX(-50%);
+  }
+  .chip:hover{ border-color:var(--gold); color:var(--gold-bright); }
+  .chip:hover::after{ width:70%; }
+  .chip.active{ background:var(--gold); border-color:var(--gold); color:#14201A; font-weight:500; }
+  .chip.active::after{ display:none; }
+
+  /* ---------- board ---------- */
+  main{ padding:34px 24px 70px; max-width:880px; margin:0 auto; }
+  .board-head{ text-align:center; margin-bottom:26px; }
+  .board-head h2{ font-family:var(--serif-deco); font-size:30px; font-weight:400; letter-spacing:0.06em; color:var(--ink); text-transform:uppercase; }
+  .board-head .sub{ font-family:var(--serif-italic); font-style:italic; font-size:13px; color:var(--muted); margin-top:8px; }
+
+  .board-frame{ position:relative; border:1px solid var(--line); border-radius:2px; padding:6px; background:var(--panel); }
+  .board-frame::before{
+    content:""; position:absolute; inset:5px; border:1px solid var(--line); border-radius:1px; pointer-events:none;
+  }
+
+  table{ width:100%; border-collapse:collapse; }
+  thead th{
+    text-align:left; font-family:var(--sans); font-size:10px; font-weight:600; letter-spacing:0.14em;
+    text-transform:uppercase; color:var(--muted); padding:16px 18px 12px; border-bottom:1px solid var(--line-strong);
+  }
+  thead th.num{ text-align:right; }
+  tbody tr{ border-bottom:1px solid var(--line); transition:background .15s ease, box-shadow .15s ease; box-shadow: inset 2px 0 0 transparent; }
+  tbody tr:last-child{ border-bottom:none; }
+  tbody tr:hover{ background:rgba(199,162,90,0.045); box-shadow: inset 2px 0 0 var(--gold); }
+  tbody td{ padding:15px 18px; vertical-align:middle; }
+
+  td.rank{ font-family:var(--serif-italic); font-size:19px; font-weight:500; color:var(--ink-dim); width:56px; }
+  .medallion-wrap{ position:relative; width:40px; height:40px; display:flex; align-items:center; justify-content:center; }
+  .medallion-wrap svg{ position:absolute; inset:0; width:100%; height:100%; opacity:0.85; }
+  .medallion{
+    width:26px; height:26px; border-radius:50%;
+    background: radial-gradient(circle at 35% 30%, var(--gold-bright), var(--gold) 60%, #8a6b34 100%);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--serif-deco); font-size:12px; color:#1B140A;
+    box-shadow: 0 0 0 1px rgba(199,162,90,0.5), 0 2px 10px rgba(199,162,90,0.35);
+    position:relative; z-index:1;
+  }
+  td.delta{ width:64px; font-family:var(--sans); font-size:11px; font-weight:500; letter-spacing:0.02em; }
+  td.delta.up{ color:var(--sage); } td.delta.down{ color:var(--rose); } td.delta.flat{ color:var(--muted); }
+  td.name{ font-family:var(--sans); font-weight:400; font-size:15px; letter-spacing:0.01em; }
+  tr:first-child td.name{ font-weight:600; }
+  .name-link{
+    color:var(--ink); text-decoration:none; border-bottom:1px solid transparent;
+    transition:color .15s ease, border-color .15s ease;
+  }
+  .name-link:hover{ color:var(--gold-bright); border-bottom-color:var(--gold-bright); }
+  tr:first-child td.name .name-link{ color:var(--gold-bright); }
+  tr:nth-child(2) td.rank, tr:nth-child(3) td.rank{ font-weight:600; }
+  tr:nth-child(2) td.name .name-link{ color:#D8DCE0; }
+  tr:nth-child(2) td.rank{ color:#B7BCC2; }
+  tr:nth-child(3) td.name .name-link{ color:#CC9662; }
+  tr:nth-child(3) td.rank{ color:#B07A46; }
+  td.bar-cell{ min-width:140px; }
+  .bar-track{ height:2px; background:rgba(255,255,255,0.06); position:relative; }
+  .bar-fill{ height:100%; background:linear-gradient(90deg, var(--gold), var(--gold-bright)); }
+  td.index{ text-align:right; font-family:var(--serif-italic); font-style:italic; font-weight:600; font-size:16px; color:var(--ink); width:64px; }
+
+  footer{
+    padding:34px 24px 56px; text-align:center; border-top:1px solid var(--line); margin-top:10px;
+  }
+  footer .rule{ margin-bottom:18px; }
+  footer .foot-text{ font-family:var(--sans); font-size:10.5px; letter-spacing:0.08em; color:var(--muted); line-height:2; text-transform:uppercase; }
+  footer .foot-text b{ color:var(--gold-bright); font-weight:500; }
+  footer .foot-sub{ font-family:var(--serif-italic); font-style:italic; font-size:12.5px; color:var(--ink-dim); margin-top:10px; text-transform:none; letter-spacing:0; }
+
+  @media (max-width: 720px){
+    header{ padding:40px 16px 24px; }
+    .wordmark{ font-size:38px; letter-spacing:0.08em; }
+    .cat-groups{ padding-left:16px; padding-right:16px; }
+    .cat-group-row{ justify-content:flex-start; }
+    .cat-group-label{ min-width:100%; text-align:left; }
+    main{ padding:26px 12px 50px; }
+    td.bar-cell{ display:none; }
+    thead th:nth-child(4){ display:none; }
+  }
+</style>
+</head>
+<body>
+
+  <svg class="grain"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#noise)"/></svg>
+
+  <div class="page-frame">
+    <span class="corner-tick tl"></span>
+    <span class="corner-tick tr"></span>
+    <span class="corner-tick bl"></span>
+    <span class="corner-tick br"></span>
+
+  <header>
+    <svg class="fan-corner tl" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#C7A25A" stroke-width="1">
+        <path d="M2 2 L2 40" /><path d="M2 2 L40 2" />
+        <path d="M2 2 Q 2 30 30 30" opacity="0.7"/>
+        <path d="M2 2 Q 2 55 55 55" opacity="0.45"/>
+        <path d="M2 2 Q 2 80 80 80" opacity="0.25"/>
+      </g>
+    </svg>
+    <svg class="fan-corner tr" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#C7A25A" stroke-width="1">
+        <path d="M2 2 L2 40" /><path d="M2 2 L40 2" />
+        <path d="M2 2 Q 2 30 30 30" opacity="0.7"/>
+        <path d="M2 2 Q 2 55 55 55" opacity="0.45"/>
+        <path d="M2 2 Q 2 80 80 80" opacity="0.25"/>
+      </g>
+    </svg>
+
+    <div class="crest">
+      <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="23" cy="23" r="21.5" stroke="#C7A25A" stroke-width="1"/>
+        <circle cx="23" cy="23" r="18" stroke="#C7A25A" stroke-width="0.6" opacity="0.6"/>
+        <path d="M15 20 a8 8 0 1 0 16 0" stroke="#C7A25A" stroke-width="1.2" fill="none"/>
+        <path d="M15 20 q0 -4 4 -4 h8 q4 0 4 4" stroke="#C7A25A" stroke-width="1.2" fill="none"/>
+        <path d="M17 12 q1 -3 3 -3" stroke="#C7A25A" stroke-width="1" opacity="0.7"/>
+        <path d="M26 12 q-1 -3 -3 -3" stroke="#C7A25A" stroke-width="1" opacity="0.7"/>
+        <line x1="12" y1="30" x2="34" y2="30" stroke="#C7A25A" stroke-width="0.8" opacity="0.7"/>
+      </svg>
+    </div>
+
+    <div class="eyebrow">Le Classement du Café</div>
+    <div class="wordmark">Coffee Rank</div>
+    <div class="rule-pair">
+      <div class="rule thick"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+      <div class="rule sub"><span class="line"></span><span class="line"></span></div>
+    </div>
+    <div class="tagline">네이버 검색 트렌드로 그려낸, 커피의 오늘</div>
+    <div class="status-row">
+      <span class="dot"></span>
+      <span>Live</span>
+      <span>·</span>
+      <span class="clock" id="clock">00:00:00</span>
+    </div>
+  </header>
+
+  <div class="ticker-wrap"><div class="ticker-track" id="tickerTrack"></div></div>
+
+  <div class="controls">
+    <div class="period-tabs" id="periodTabs">
+      <button data-period="daily" class="active">일간</button>
+      <button data-period="weekly">주간</button>
+      <button data-period="monthly">월간</button>
+      <button data-period="yearly">연간</button>
+    </div>
+    <div class="source-note" id="sourceNote">네이버 검색 트렌드 누적 검색량을 기준으로 산출한 상대 지수입니다</div>
+  </div>
+
+  <div class="cat-groups" id="catGroups">
+    <div class="cat-group-row">
+      <span class="cat-group-label">생두</span>
+      <button class="chip active" data-cat="green-bean-specialty">스페셜티</button>
+      <button class="chip" data-cat="green-bean-commercial">커머셜</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">원두</span>
+      <button class="chip" data-cat="roasted-bean-specialty">스페셜티</button>
+      <button class="chip" data-cat="roasted-bean-md">MD</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">바리스타</span>
+      <button class="chip" data-cat="barista-domestic">국내</button>
+      <button class="chip" data-cat="barista-intl">해외</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">커피트렌드</span>
+      <button class="chip" data-cat="trend-beverage">음료</button>
+      <button class="chip" data-cat="trend-book">커피서적</button>
+      <button class="chip" data-cat="trend-tool">커피툴</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">카페</span>
+      <button class="chip" data-cat="cafe">스페셜티 카페</button>
+      <button class="chip" data-cat="franchise">프랜차이즈</button>
+      <button class="chip" data-cat="bakery">베이커리</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">상업용</span>
+      <button class="chip" data-cat="grinder-commercial">그라인더</button>
+      <button class="chip" data-cat="auto-commercial">자동머신</button>
+      <button class="chip" data-cat="semi-auto-commercial">반자동머신</button>
+      <button class="chip" data-cat="drip-machine-commercial">드립머신</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">홈카페</span>
+      <button class="chip" data-cat="grinder-home">그라인더</button>
+      <button class="chip" data-cat="auto-home">자동머신</button>
+      <button class="chip" data-cat="drip-machine-home">드립머신</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">추출도구</span>
+      <button class="chip" data-cat="dripper">커피드리퍼</button>
+      <button class="chip" data-cat="scale">저울</button>
+      <button class="chip" data-cat="pot">커피포트</button>
+    </div>
+    <div class="cat-group-row">
+      <span class="cat-group-label">로스터기</span>
+      <button class="chip" data-cat="roaster-sample-home">샘플/홈</button>
+      <button class="chip" data-cat="roaster-commercial">상업용</button>
+    </div>
+  </div>
+
+  <main>
+    <div class="board-head">
+      <h2 id="boardTitle">생두 랭킹</h2>
+      <span class="sub" id="boardSub">실시간 · 네이버 검색 트렌드 기준</span>
+    </div>
+    <div class="board-frame">
+      <table>
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>등락</th>
+            <th>상품명</th>
+            <th>검색 지수</th>
+            <th class="num">지수값</th>
+          </tr>
+        </thead>
+        <tbody id="rankBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <div class="rule"><span class="line"></span><span class="diamond"></span><span class="line"></span></div>
+    <div class="foot-text"><b>Coffee Rank</b> — Generve, Torréfacteur, Café, Machine, Filtre. Tout sur le café, en une page.</div>
+    <div class="foot-sub">생두부터 핸드드립 도구까지, 커피에 관한 모든 검색 트렌드를 한 페이지에서.</div>
+  </footer>
+
+  </div>
+
+<script>
+  // ---------- Clock ----------
+  function tick(){
+    const d = new Date();
+    document.getElementById('clock').textContent = d.toTimeString().slice(0,8);
+  }
+  tick(); setInterval(tick, 1000);
+
+  // ---------- Seeded PRNG for consistent mock rankings ----------
+  function seededRandom(seed){
+    let s = seed % 2147483647;
+    if (s <= 0) s += 2147483646;
+    return function(){
+      s = (s * 16807) % 2147483647;
+      return (s - 1) / 2147483646;
+    };
+  }
+  function hashStr(str){
+    let h = 0;
+    for(let i=0;i<str.length;i++){ h = (Math.imul(31,h) + str.charCodeAt(i)) | 0; }
+    return Math.abs(h) || 1;
+  }
+
+  // ---------- Category data ----------
+  const CATS = {
+    'green-bean-specialty': { title: '생두 · 스페셜티', sub: 'SPECIALTY GREEN BEAN', items: [
+      '파나마 게이샤','에티오피아 예가체프 G1','케냐 AA','코스타리카 따라주 게이샤','르완다 부지제로',
+      '콜롬비아 게이샤','온두라스 SHG COE','인도네시아 만델링 G1','과테말라 안티구아 SHB','엘살바도르 파카마라'
+    ]},
+    'green-bean-commercial': { title: '생두 · 커머셜', sub: 'COMMERCIAL GREEN BEAN', items: [
+      '브라질 산토스','베트남 로부스타','콜롬비아 수프리모','인도네시아 만델링 G4','과테말라 수프리모',
+      '온두라스 HG','인도 로부스타','우간다 로부스타','에티오피아 G4','베트남 아라비카'
+    ]},
+    'roasted-bean-specialty': { title: '원두 · 스페셜티', sub: 'SPECIALTY ROASTED BEAN', items: [
+      '테라로사 원두','프릳츠 커피 원두','블루보틀 원두','모모스커피 원두','커피리브레 원두',
+      '나무사이로 원두','앤트러사이트 원두','센터커피 원두','리사르커피 원두','스타벅스 리저브 원두'
+    ]},
+    'roasted-bean-md': { title: '원두 · MD', sub: 'READY-TO-DRINK & CONVENIENCE COFFEE', items: [
+      '스타벅스 비아 인스턴트','네스프레소 오리지널 캡슐','일리 이지에스프레소 캡슐','조지아 크래프트 RTD','폴바셋 드립백',
+      '커피빈 드립백','남양 프렌치카페 카페믹스','동서 맥심 화이트골드','스타벅스 더블샷 RTD','돌체구스토 캡슐'
+    ]},
+    'trend-beverage': { title: '커피트렌드 · 음료', sub: 'TREND BEVERAGE', items: [
+      '더치커피','아인슈페너','돌체라떼','흑당라떼','코코넛라떼',
+      '디카페인 커피','콜드브루','오트밀크 라떼','시나몬 돌체라떼','피스타치오 라떼'
+    ]},
+    'trend-book': { title: '커피트렌드 · 커피서적', sub: 'TREND BOOK', items: [
+      '커피 인사이드','커피 공부','커피 과학','스페셜티 커피 대백과','커피 로스팅',
+      '커피 아틀라스','카페를 하다','홈카페의 정석','바리스타를 위한 커피 과학','커피 테이스팅'
+    ]},
+    'trend-tool': { title: '커피트렌드 · 커피툴', sub: 'TREND TOOL & ACCESSORY', items: [
+      '탬퍼','디스트리뷰터','넉박스','밀크저그','WDT 툴',
+      '퍽 스크리너','샷글라스','커피 온도계','클리닝 브러시','포터필터 홀더'
+    ]},
+    'cafe': { title: '카페 · 스페셜티 카페', sub: 'SPECIALTY CAFE', items: [
+      '테라로사','프릳츠커피컴퍼니','앤트러사이트','센터커피','모모스커피',
+      '커피리브레','나무사이로','리사르커피','어니언','대림창고'
+    ]},
+    'franchise': { title: '카페 · 프랜차이즈', sub: 'FRANCHISE CAFE', items: [
+      '스타벅스','이디야커피','투썸플레이스','메가커피','컴포즈커피',
+      '빽다방','커피빈','할리스','폴바셋','던킨'
+    ]},
+    'bakery': { title: '카페 · 베이커리', sub: 'BAKERY CAFE', items: [
+      '오월의종','밀도','아우어베이커리','도레도레','파리바게뜨',
+      '뚜레쥬르','성심당','런던베이글뮤지엄','노티드','이성당'
+    ]},
+    'barista-domestic': { title: '바리스타 · 국내', sub: 'DOMESTIC BARISTA', items: [
+      '신창호','임정환','방현영','전주연','서필훈',
+      '박이추','강훈','김사홍'
+    ]},
+    'barista-intl': { title: '바리스타 · 해외', sub: 'INTERNATIONAL BARISTA', items: [
+      '샤샤 세스틱','팀 웬델보','히데노리 이자키','피트 리카타','아그니에슈카 로예프스카',
+      '디에고 캄포스','마이클 필립스','앤더스 크리스티안센','궬림 데이비스','베르그 우'
+    ]},
+    'grinder-commercial': { title: '상업용 · 그라인더', sub: 'COMMERCIAL GRINDER', items: [
+      'Mahlkonig EK43','Mahlkonig E65S','Ditting KR804','Anfim SP2','Compak K10',
+      'Nuova Simonelli Mythos','Victoria Arduino Mythos One','Fiorenzato F64E','Mazzer Robur','Baratza Forte'
+    ]},
+    'auto-commercial': { title: '상업용 · 자동머신', sub: 'COMMERCIAL AUTOMATIC', items: [
+      'Franke A600','WMF 1500S+','Schaerer Coffee Art Plus','Egro One','Melitta Cafina XT6',
+      'La Cimbali S30','Necta','Jura GIGA X8 Professional','Thermoplan Black&White3','San Remo Automatic'
+    ]},
+    'semi-auto-commercial': { title: '상업용 · 반자동머신', sub: 'COMMERCIAL SEMI-AUTO', items: [
+      'La Marzocco Linea PB','La Marzocco GB5','Victoria Arduino Eagle One','Nuova Simonelli Aurelia',
+      'Rancilio Classe 9','Wega','Dalla Corte XT','San Remo Verona','Rocket Boxer','Slayer Steam'
+    ]},
+    'drip-machine-commercial': { title: '상업용 · 드립머신', sub: 'COMMERCIAL BATCH BREWER', items: [
+      'Fetco CBS-2131','Bunn ICB','Wilbur Curtis G4','Marco Jet','Newco',
+      'Grindmaster','Curtis ThermoPro','Bonavita Commercial','Moccamaster Commercial','Technivorm Commercial'
+    ]},
+    'roaster-sample-home': { title: '로스터기 · 샘플/홈', sub: 'SAMPLE & HOME ROASTER', items: [
+      'Aillio Bullet R1','Hottop','Kaldi','Behmor 1600','IKAWA Pro',
+      'Probatino','Giesen W1A','San Franciscan','Gene Cafe','코레토 홈로스터'
+    ]},
+    'roaster-commercial': { title: '로스터기 · 상업용', sub: 'COMMERCIAL ROASTER', items: [
+      'Giesen','Probat','Loring Smart Roast','태환 로스터','Diedrich',
+      'San Franciscan','Toper','Coffee-Tech','Ozturk','Union'
+    ]},
+    'grinder-home': { title: '홈카페 · 그라인더', sub: 'HOME GRINDER', items: [
+      'Comandante C40','1Zpresso JX-Pro','Fellow Ode','Timemore Slim','Niche Zero',
+      'Baratza Encore ESP','DF64','Weber Workshops EG-1','Eureka Mignon','Origin Grinder'
+    ]},
+    'auto-home': { title: '홈카페 · 자동머신', sub: 'HOME AUTOMATIC', items: [
+      "De'Longhi Magnifica",'Breville Barista Express','Philips LatteGo','지멜코스타','Saeco',
+      'Gaggia','Smeg','Melitta','Jura','Nespresso'
+    ]},
+    'dripper': { title: '추출도구 · 커피드리퍼', sub: 'COFFEE DRIPPER', items: [
+      '하리오 V60 드리퍼','칼리타 웨이브 드리퍼','고노 드리퍼','오리가미 드리퍼','케맥스 드리퍼',
+      '클레버 드리퍼','하리오 스위치 드리퍼','MHW-3BOMBER UFO 드리퍼','오레아 드리퍼','블루보틀 드리퍼'
+    ]},
+    'scale': { title: '추출도구 · 저울', sub: 'COFFEE SCALE', items: [
+      'Acaia Pearl','Acaia Lunar','Timemore Black Mirror','Timemore Nano','Hario V60 Drip Scale',
+      'Brewista Smart Scale','Coffee Sensor Scale','디지털 커피저울','타이머 겸용 커피저울','휴대용 커피저울'
+    ]},
+    'pot': { title: '추출도구 · 커피포트', sub: 'COFFEE DRIP POT', items: [
+      'Fellow Stagg EKG','Hario Buono','Brewista Artisan','Timemore Fish','Kalita Wave Pot',
+      'Bonavita Pot','Wilfa Pot','Espro Pot','스텐 드립포트','커피 드립케틀'
+    ]},
+    'drip-machine-home': { title: '홈카페 · 드립머신', sub: 'HOME BATCH BREWER', items: [
+      'Technivorm Moccamaster','Bonavita BV1900','OXO Brew','Chemex Ottomatic','Ratio Eight',
+      'Behmor Brazen','Ninja Coffee Maker','Melitta','Braun','Russell Hobbs'
+    ]},
+  };
+
+  let currentCat = 'green-bean-specialty';
+  let currentPeriod = 'daily';
+  const PERIOD_LABEL = { daily:'일간 누적 검색 기준', weekly:'주간(7일) 누적 검색 기준', monthly:'월간(30일) 누적 검색 기준', yearly:'연간(1년) 누적 검색 기준' };
+  const PERIOD_SEED = { daily:1, weekly:2, monthly:3, yearly:4 };
+
+  // ---------- Real data (fetched from data/rankings.json) with mock fallback ----------
+  let REMOTE = null;
+  let usingMock = true;
+
+  function buildRankingMock(catKey, period){
+    const cat = CATS[catKey];
+    const seed = hashStr(catKey + '-' + period) + PERIOD_SEED[period]*9973;
+    const rnd = seededRandom(seed);
+    let vals = cat.items.map((name) => ({ name, base: 30 + rnd()*70 }));
+    vals.sort((a,b)=>b.base-a.base);
+    const rndPrev = seededRandom(seed + 555);
+    let prevOrder = cat.items.map((name)=>({name, base: 30 + rndPrev()*70}));
+    prevOrder.sort((a,b)=>b.base-a.base);
+    const prevRankMap = {};
+    prevOrder.forEach((v,i)=> prevRankMap[v.name] = i+1);
+    return vals.map((v,i)=>{
+      const rank = i+1;
+      const prevRank = prevRankMap[v.name] ?? rank;
+      const delta = prevRank - rank;
+      return { rank, name: v.name, index: v.base.toFixed(1), delta };
+    });
+  }
+
+  function buildRanking(catKey, period){
+    // remote schema: categories[catKey].periods[period].rows  (preferred)
+    // falls back to categories[catKey].rows (single snapshot, same for all periods)
+    const remoteCat = REMOTE?.categories?.[catKey];
+    const remoteRows = remoteCat?.periods?.[period]?.rows ?? remoteCat?.rows;
+    if (remoteRows && remoteRows.length){
+      usingMock = false;
+      return remoteRows.map(r => ({ ...r, index: Number(r.index).toFixed(1) }));
+    }
+    usingMock = true;
+    return buildRankingMock(catKey, period);
+  }
+
+  async function loadRemoteData(){
+    try{
+      const res = await fetch('./data/rankings.json', { cache: 'no-cache' });
+      if(!res.ok) throw new Error('no data file');
+      REMOTE = await res.json();
+    }catch(e){
+      REMOTE = null;
+    }
+    renderBoard();
+    renderTicker();
+  }
+
+  function renderBoard(){
+    const cat = CATS[currentCat];
+    document.getElementById('boardTitle').textContent = cat.title;
+    const rows = buildRanking(currentCat, currentPeriod);
+    if(usingMock){
+      document.getElementById('boardSub').textContent = `데모 데이터 · ${PERIOD_LABEL[currentPeriod]}`;
+      document.getElementById('sourceNote').textContent = '네이버 검색 트렌드 누적 검색량을 기준으로 산출할 예정인 상대 지수입니다 (지금은 데모)';
+    } else {
+      const t = REMOTE?.generatedAt ? new Date(REMOTE.generatedAt).toLocaleString('ko-KR') : '';
+      document.getElementById('boardSub').textContent = `${PERIOD_LABEL[currentPeriod]} · 데이터 갱신 ${t}`;
+      document.getElementById('sourceNote').textContent = '네이버 검색 트렌드 누적 검색량을 기준으로 산출한 상대 지수입니다';
+    }
+    const maxIdx = Math.max(...rows.map(r=>parseFloat(r.index)));
+    const body = document.getElementById('rankBody');
+    body.innerHTML = rows.map(r=>{
+      let deltaHtml, deltaClass;
+      if(r.delta > 0){ deltaClass='up'; deltaHtml = '▲ ' + r.delta; }
+      else if(r.delta < 0){ deltaClass='down'; deltaHtml = '▼ ' + Math.abs(r.delta); }
+      else { deltaClass='flat'; deltaHtml = '−'; }
+      const pct = (parseFloat(r.index)/maxIdx*100).toFixed(0);
+      const rankCell = r.rank === 1
+        ? `<div class="medallion-wrap"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#C7A25A" stroke-width="1.1"><path d="M8 12 Q4 20 8 28 Q10 30 13 29" opacity="0.8"/><path d="M6 14 Q3 20 6 26" opacity="0.5"/><path d="M32 12 Q36 20 32 28 Q30 30 27 29" opacity="0.8"/><path d="M34 14 Q37 20 34 26" opacity="0.5"/></g></svg><div class="medallion">${r.rank}</div></div>`
+        : String(r.rank).padStart(2,'0');
+      return `<tr>
+        <td class="rank">${rankCell}</td>
+        <td class="delta ${deltaClass}">${deltaHtml}</td>
+        <td class="name"><a class="name-link" href="https://search.naver.com/search.naver?query=${encodeURIComponent(searchQueryFor(currentCat, r.name))}" target="_blank" rel="noopener noreferrer">${r.name}</a></td>
+        <td class="bar-cell"><div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div></td>
+        <td class="index">${r.index}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  // Some category names are too generic on their own (e.g. "서버", "포트" also
+  // mean "server"/"port" outside coffee), so we prefix the Naver search query
+  // with "커피" for those to keep results on-topic.
+  const SEARCH_PREFIX_CATS = new Set(['dripper', 'scale', 'pot']);
+  function searchQueryFor(catKey, name){
+    return SEARCH_PREFIX_CATS.has(catKey) ? `커피 ${name}` : name;
+  }
+
+  function renderTicker(){
+    const keys = Object.keys(CATS);
+    let items = [];
+    keys.forEach(k=>{
+      const rows = buildRanking(k, currentPeriod).slice(0,3);
+      rows.forEach(r=> items.push({cat: CATS[k].title, catKey: k, ...r}));
+    });
+    const rnd = seededRandom(777);
+    items.sort(()=> rnd()-0.5);
+    items = items.slice(0, 24);
+    const html = items.map(it=>{
+      let cls, sym;
+      if(it.delta>0){cls='up'; sym='▲'+it.delta;}
+      else if(it.delta<0){cls='down'; sym='▼'+Math.abs(it.delta);}
+      else {cls='flat'; sym='−';}
+      const q = encodeURIComponent(searchQueryFor(it.catKey, it.name));
+      return `<span class="ticker-item"><span class="cat">${it.cat}</span><a class="name-link" href="https://search.naver.com/search.naver?query=${q}" target="_blank" rel="noopener noreferrer">${it.name}</a><span class="delta ${cls}">${sym}</span></span>`;
+    }).join('');
+    document.getElementById('tickerTrack').innerHTML = html + html;
+  }
+
+  document.getElementById('periodTabs').addEventListener('click', (e)=>{
+    const btn = e.target.closest('button[data-period]');
+    if(!btn) return;
+    document.querySelectorAll('#periodTabs button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    currentPeriod = btn.dataset.period;
+    renderBoard();
+    renderTicker();
+  });
+
+  document.getElementById('catGroups').addEventListener('click', (e)=>{
+    const chip = e.target.closest('.chip');
+    if(!chip) return;
+    document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+    chip.classList.add('active');
+    currentCat = chip.dataset.cat;
+    renderBoard();
+  });
+
+  renderBoard();
+  renderTicker();
+  loadRemoteData();
+  setInterval(loadRemoteData, 5*60*1000);
+</script>
+</body>
+</html>

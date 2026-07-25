@@ -1,0 +1,6245 @@
+{
+  "generatedAt": "2026-07-25T03:08:20.612Z",
+  "categories": {
+    "green-bean-specialty": {
+      "title": "생두 · 스페셜티",
+      "sub": "SPECIALTY GREEN BEAN",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "인도네시아 만델링 G1",
+              "index": 92.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "과테말라 안티구아 SHB",
+              "index": 89.7,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "엘살바도르 파카마라",
+              "index": 89.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "코스타리카 따라주 게이샤",
+              "index": 86.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "르완다 부지제로",
+              "index": 67.4,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "온두라스 SHG COE",
+              "index": 57.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "파나마 게이샤",
+              "index": 46.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "케냐 AA",
+              "index": 39.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "에티오피아 예가체프 G1",
+              "index": 34.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "콜롬비아 게이샤",
+              "index": 30,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "파나마 게이샤",
+              "index": 98.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "케냐 AA",
+              "index": 97.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "에티오피아 예가체프 G1",
+              "index": 93.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "과테말라 안티구아 SHB",
+              "index": 84,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "르완다 부지제로",
+              "index": 78.1,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "엘살바도르 파카마라",
+              "index": 69.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "인도네시아 만델링 G1",
+              "index": 57.8,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "콜롬비아 게이샤",
+              "index": 48.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "코스타리카 따라주 게이샤",
+              "index": 41.5,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "온두라스 SHG COE",
+              "index": 30.1,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "과테말라 안티구아 SHB",
+              "index": 89.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "콜롬비아 게이샤",
+              "index": 79,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "에티오피아 예가체프 G1",
+              "index": 76,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "코스타리카 따라주 게이샤",
+              "index": 70.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "케냐 AA",
+              "index": 69.3,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "온두라스 SHG COE",
+              "index": 65.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "엘살바도르 파카마라",
+              "index": 62.3,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "파나마 게이샤",
+              "index": 46.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "인도네시아 만델링 G1",
+              "index": 40.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "르완다 부지제로",
+              "index": 34,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "엘살바도르 파카마라",
+              "index": 93,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "파나마 게이샤",
+              "index": 92.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "코스타리카 따라주 게이샤",
+              "index": 91.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "에티오피아 예가체프 G1",
+              "index": 91,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "르완다 부지제로",
+              "index": 74.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "인도네시아 만델링 G1",
+              "index": 69.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "케냐 AA",
+              "index": 66.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "콜롬비아 게이샤",
+              "index": 66.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "과테말라 안티구아 SHB",
+              "index": 52,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "온두라스 SHG COE",
+              "index": 34.6,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "green-bean-commercial": {
+      "title": "생두 · 커머셜",
+      "sub": "COMMERCIAL GREEN BEAN",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "온두라스 HG",
+              "index": 99.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "인도 로부스타",
+              "index": 94.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "과테말라 수프리모",
+              "index": 90.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "베트남 로부스타",
+              "index": 78,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "브라질 산토스",
+              "index": 77.1,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "베트남 아라비카",
+              "index": 60.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "우간다 로부스타",
+              "index": 57.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "인도네시아 만델링 G4",
+              "index": 54.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "에티오피아 G4",
+              "index": 51.9,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "콜롬비아 수프리모",
+              "index": 39.5,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "콜롬비아 수프리모",
+              "index": 73,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "브라질 산토스",
+              "index": 69,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "베트남 아라비카",
+              "index": 65.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "에티오피아 G4",
+              "index": 55.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "과테말라 수프리모",
+              "index": 53,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "베트남 로부스타",
+              "index": 51.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "온두라스 HG",
+              "index": 48.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "우간다 로부스타",
+              "index": 45.2,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "인도 로부스타",
+              "index": 36.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "인도네시아 만델링 G4",
+              "index": 35.7,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "인도 로부스타",
+              "index": 98.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "에티오피아 G4",
+              "index": 97.7,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "인도네시아 만델링 G4",
+              "index": 90.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "베트남 로부스타",
+              "index": 86.2,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "우간다 로부스타",
+              "index": 82.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "콜롬비아 수프리모",
+              "index": 73.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "온두라스 HG",
+              "index": 62.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "베트남 아라비카",
+              "index": 59.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "과테말라 수프리모",
+              "index": 49,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "브라질 산토스",
+              "index": 47.1,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "에티오피아 G4",
+              "index": 93.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "베트남 아라비카",
+              "index": 88.9,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "인도네시아 만델링 G4",
+              "index": 85.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "온두라스 HG",
+              "index": 66.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "브라질 산토스",
+              "index": 62.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "우간다 로부스타",
+              "index": 57.3,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "과테말라 수프리모",
+              "index": 49.5,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "베트남 로부스타",
+              "index": 49.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "콜롬비아 수프리모",
+              "index": 42.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "인도 로부스타",
+              "index": 41,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "roasted-bean-specialty": {
+      "title": "원두 · 스페셜티",
+      "sub": "SPECIALTY ROASTED BEAN",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "커피리브레 원두",
+              "index": 93.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "테라로사 원두",
+              "index": 87,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "리사르커피 원두",
+              "index": 85,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "모모스커피 원두",
+              "index": 72.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "프릳츠 커피 원두",
+              "index": 67.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "나무사이로 원두",
+              "index": 50.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "앤트러사이트 원두",
+              "index": 49.5,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "센터커피 원두",
+              "index": 35.9,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "블루보틀 원두",
+              "index": 33.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "스타벅스 리저브 원두",
+              "index": 32.1,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "커피리브레 원두",
+              "index": 97.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "앤트러사이트 원두",
+              "index": 92.9,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "스타벅스 리저브 원두",
+              "index": 88.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "모모스커피 원두",
+              "index": 78.6,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "테라로사 원두",
+              "index": 65.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "블루보틀 원두",
+              "index": 63.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "나무사이로 원두",
+              "index": 53.1,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "프릳츠 커피 원두",
+              "index": 43.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "센터커피 원두",
+              "index": 40.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "리사르커피 원두",
+              "index": 36.9,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "블루보틀 원두",
+              "index": 99.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "리사르커피 원두",
+              "index": 98.7,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "커피리브레 원두",
+              "index": 91.1,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "앤트러사이트 원두",
+              "index": 75,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "프릳츠 커피 원두",
+              "index": 74.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "나무사이로 원두",
+              "index": 67.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "모모스커피 원두",
+              "index": 60.5,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "테라로사 원두",
+              "index": 58,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "스타벅스 리저브 원두",
+              "index": 55.9,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "센터커피 원두",
+              "index": 33.4,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "테라로사 원두",
+              "index": 93.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "나무사이로 원두",
+              "index": 85.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "앤트러사이트 원두",
+              "index": 67.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "프릳츠 커피 원두",
+              "index": 67.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "블루보틀 원두",
+              "index": 65.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "모모스커피 원두",
+              "index": 61.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "스타벅스 리저브 원두",
+              "index": 49,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "센터커피 원두",
+              "index": 47.2,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "커피리브레 원두",
+              "index": 41.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "리사르커피 원두",
+              "index": 33.4,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "roasted-bean-md": {
+      "title": "원두 · MD",
+      "sub": "READY-TO-DRINK & CONVENIENCE COFFEE",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "스타벅스 비아 인스턴트",
+              "index": 82.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "조지아 크래프트 RTD",
+              "index": 82.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "돌체구스토 캡슐",
+              "index": 79.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "스타벅스 더블샷 RTD",
+              "index": 67.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "동서 맥심 화이트골드",
+              "index": 66.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "네스프레소 오리지널 캡슐",
+              "index": 66.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "일리 이지에스프레소 캡슐",
+              "index": 63.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "폴바셋 드립백",
+              "index": 55.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "커피빈 드립백",
+              "index": 48.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "남양 프렌치카페 카페믹스",
+              "index": 37.9,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "스타벅스 비아 인스턴트",
+              "index": 99.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "네스프레소 오리지널 캡슐",
+              "index": 96.9,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "돌체구스토 캡슐",
+              "index": 76.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "커피빈 드립백",
+              "index": 76,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "일리 이지에스프레소 캡슐",
+              "index": 72,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "동서 맥심 화이트골드",
+              "index": 70.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "스타벅스 더블샷 RTD",
+              "index": 64.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "조지아 크래프트 RTD",
+              "index": 54.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "폴바셋 드립백",
+              "index": 38.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "남양 프렌치카페 카페믹스",
+              "index": 35.3,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "동서 맥심 화이트골드",
+              "index": 94.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "돌체구스토 캡슐",
+              "index": 90.7,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "스타벅스 더블샷 RTD",
+              "index": 85.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "스타벅스 비아 인스턴트",
+              "index": 78,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "일리 이지에스프레소 캡슐",
+              "index": 76.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "폴바셋 드립백",
+              "index": 63.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "커피빈 드립백",
+              "index": 56.8,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "조지아 크래프트 RTD",
+              "index": 49.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "남양 프렌치카페 카페믹스",
+              "index": 42.7,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "네스프레소 오리지널 캡슐",
+              "index": 37.1,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "네스프레소 오리지널 캡슐",
+              "index": 94.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "커피빈 드립백",
+              "index": 94.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "스타벅스 비아 인스턴트",
+              "index": 93.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "동서 맥심 화이트골드",
+              "index": 82.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "일리 이지에스프레소 캡슐",
+              "index": 41.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "남양 프렌치카페 카페믹스",
+              "index": 39.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "폴바셋 드립백",
+              "index": 34.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "조지아 크래프트 RTD",
+              "index": 34.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "스타벅스 더블샷 RTD",
+              "index": 32.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "돌체구스토 캡슐",
+              "index": 30.3,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "trend-beverage": {
+      "title": "커피트렌드 · 음료",
+      "sub": "TREND BEVERAGE",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "콜드브루",
+              "index": 94.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "흑당라떼",
+              "index": 83.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "아인슈페너",
+              "index": 81.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "디카페인 커피",
+              "index": 71.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "돌체라떼",
+              "index": 67,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "코코넛라떼",
+              "index": 66.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "오트밀크 라떼",
+              "index": 65.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "더치커피",
+              "index": 58.7,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "시나몬 돌체라떼",
+              "index": 45.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "피스타치오 라떼",
+              "index": 35.9,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "돌체라떼",
+              "index": 99.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "시나몬 돌체라떼",
+              "index": 94.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "더치커피",
+              "index": 78.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "피스타치오 라떼",
+              "index": 77.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "디카페인 커피",
+              "index": 76.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "흑당라떼",
+              "index": 72.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "콜드브루",
+              "index": 66.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "오트밀크 라떼",
+              "index": 61,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "아인슈페너",
+              "index": 37.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "코코넛라떼",
+              "index": 34.3,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "아인슈페너",
+              "index": 91.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "피스타치오 라떼",
+              "index": 85.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "흑당라떼",
+              "index": 81.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "콜드브루",
+              "index": 73.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "코코넛라떼",
+              "index": 71.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "오트밀크 라떼",
+              "index": 61.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "돌체라떼",
+              "index": 56.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "디카페인 커피",
+              "index": 37.7,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "시나몬 돌체라떼",
+              "index": 36,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "더치커피",
+              "index": 34.7,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "디카페인 커피",
+              "index": 95,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "오트밀크 라떼",
+              "index": 73.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "더치커피",
+              "index": 72.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "콜드브루",
+              "index": 70.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "돌체라떼",
+              "index": 69.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "시나몬 돌체라떼",
+              "index": 62.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "흑당라떼",
+              "index": 52.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "아인슈페너",
+              "index": 35.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "코코넛라떼",
+              "index": 30.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "피스타치오 라떼",
+              "index": 30.6,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "trend-book": {
+      "title": "커피트렌드 · 커피서적",
+      "sub": "TREND BOOK",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "스페셜티 커피 대백과",
+              "index": 99.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "커피 과학",
+              "index": 97.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "커피 로스팅",
+              "index": 89.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "커피 공부",
+              "index": 82.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "홈카페의 정석",
+              "index": 81.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "커피 테이스팅",
+              "index": 72.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "카페를 하다",
+              "index": 51.5,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "바리스타를 위한 커피 과학",
+              "index": 45.9,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "커피 인사이드",
+              "index": 43.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "커피 아틀라스",
+              "index": 40.5,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "카페를 하다",
+              "index": 90.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "커피 아틀라스",
+              "index": 84,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "바리스타를 위한 커피 과학",
+              "index": 76.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "커피 인사이드",
+              "index": 74,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "커피 과학",
+              "index": 70.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "커피 로스팅",
+              "index": 68.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "스페셜티 커피 대백과",
+              "index": 50.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "홈카페의 정석",
+              "index": 45.5,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "커피 테이스팅",
+              "index": 41.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "커피 공부",
+              "index": 36.8,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "커피 아틀라스",
+              "index": 96.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "스페셜티 커피 대백과",
+              "index": 96.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "바리스타를 위한 커피 과학",
+              "index": 80.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "커피 과학",
+              "index": 72.2,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "커피 로스팅",
+              "index": 62.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "커피 인사이드",
+              "index": 61.3,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "커피 테이스팅",
+              "index": 56.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "커피 공부",
+              "index": 53.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "홈카페의 정석",
+              "index": 50.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "카페를 하다",
+              "index": 46.9,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "카페를 하다",
+              "index": 94.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "커피 인사이드",
+              "index": 67.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "커피 테이스팅",
+              "index": 65.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "커피 로스팅",
+              "index": 65.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "홈카페의 정석",
+              "index": 57.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "바리스타를 위한 커피 과학",
+              "index": 44.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "커피 과학",
+              "index": 40.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "커피 공부",
+              "index": 34.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "커피 아틀라스",
+              "index": 32,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "스페셜티 커피 대백과",
+              "index": 30.2,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "trend-tool": {
+      "title": "커피트렌드 · 커피툴",
+      "sub": "TREND TOOL & ACCESSORY",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "클리닝 브러시",
+              "index": 97,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "디스트리뷰터",
+              "index": 94.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "탬퍼",
+              "index": 86.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "밀크저그",
+              "index": 82.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "샷글라스",
+              "index": 72.7,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "커피 온도계",
+              "index": 69.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "WDT 툴",
+              "index": 66.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "포터필터 홀더",
+              "index": 62.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "넉박스",
+              "index": 45.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "퍽 스크리너",
+              "index": 43,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "WDT 툴",
+              "index": 96.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "포터필터 홀더",
+              "index": 95.6,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "클리닝 브러시",
+              "index": 93.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "넉박스",
+              "index": 89.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "퍽 스크리너",
+              "index": 79.7,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "탬퍼",
+              "index": 74.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "샷글라스",
+              "index": 70.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "디스트리뷰터",
+              "index": 70.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "밀크저그",
+              "index": 56.5,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "커피 온도계",
+              "index": 34.1,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "클리닝 브러시",
+              "index": 89.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "넉박스",
+              "index": 88.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "커피 온도계",
+              "index": 86.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "포터필터 홀더",
+              "index": 85.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "탬퍼",
+              "index": 83.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "WDT 툴",
+              "index": 77.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "디스트리뷰터",
+              "index": 54.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "퍽 스크리너",
+              "index": 51.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "샷글라스",
+              "index": 45.7,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "밀크저그",
+              "index": 35.4,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "퍽 스크리너",
+              "index": 97.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "WDT 툴",
+              "index": 93.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "샷글라스",
+              "index": 75.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "디스트리뷰터",
+              "index": 68.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "탬퍼",
+              "index": 68.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "클리닝 브러시",
+              "index": 61.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "넉박스",
+              "index": 59,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "포터필터 홀더",
+              "index": 49.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "커피 온도계",
+              "index": 46.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "밀크저그",
+              "index": 36.5,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "cafe": {
+      "title": "카페 · 스페셜티 카페",
+      "sub": "SPECIALTY CAFE",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "리사르커피",
+              "index": 84.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "대림창고",
+              "index": 81.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "테라로사",
+              "index": 81.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "센터커피",
+              "index": 73.2,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "어니언",
+              "index": 71.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "커피리브레",
+              "index": 70.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "모모스커피",
+              "index": 61,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "앤트러사이트",
+              "index": 58,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "나무사이로",
+              "index": 52.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "프릳츠커피컴퍼니",
+              "index": 43.9,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "리사르커피",
+              "index": 95.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "앤트러사이트",
+              "index": 81.9,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "프릳츠커피컴퍼니",
+              "index": 79.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "테라로사",
+              "index": 73.2,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "센터커피",
+              "index": 66,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "나무사이로",
+              "index": 55.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "대림창고",
+              "index": 55.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "커피리브레",
+              "index": 40.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "어니언",
+              "index": 31.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "모모스커피",
+              "index": 30.1,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "리사르커피",
+              "index": 98.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "어니언",
+              "index": 79.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "나무사이로",
+              "index": 67.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "대림창고",
+              "index": 66.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "테라로사",
+              "index": 66.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "프릳츠커피컴퍼니",
+              "index": 49.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "센터커피",
+              "index": 48.1,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "앤트러사이트",
+              "index": 42.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "모모스커피",
+              "index": 36,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "커피리브레",
+              "index": 30.9,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "어니언",
+              "index": 97.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "대림창고",
+              "index": 85.9,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "앤트러사이트",
+              "index": 84.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "커피리브레",
+              "index": 73.2,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "센터커피",
+              "index": 49,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "모모스커피",
+              "index": 44.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "프릳츠커피컴퍼니",
+              "index": 33.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "리사르커피",
+              "index": 32.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "테라로사",
+              "index": 31.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "나무사이로",
+              "index": 30.4,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "franchise": {
+      "title": "카페 · 프랜차이즈",
+      "sub": "FRANCHISE CAFE",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "투썸플레이스",
+              "index": 100,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "할리스",
+              "index": 98.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "던킨",
+              "index": 97.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "이디야커피",
+              "index": 75,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "빽다방",
+              "index": 75,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "스타벅스",
+              "index": 67.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "커피빈",
+              "index": 60.8,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "메가커피",
+              "index": 53,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "폴바셋",
+              "index": 51,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "컴포즈커피",
+              "index": 47.1,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "컴포즈커피",
+              "index": 93.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "커피빈",
+              "index": 84.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "메가커피",
+              "index": 83,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "할리스",
+              "index": 75.6,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "빽다방",
+              "index": 73.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "던킨",
+              "index": 66.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "투썸플레이스",
+              "index": 64.1,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "이디야커피",
+              "index": 56.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "폴바셋",
+              "index": 55.5,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "스타벅스",
+              "index": 30.9,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "커피빈",
+              "index": 97.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "컴포즈커피",
+              "index": 93.7,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "메가커피",
+              "index": 83,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "할리스",
+              "index": 82.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "던킨",
+              "index": 80.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "이디야커피",
+              "index": 69.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "빽다방",
+              "index": 58.8,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "스타벅스",
+              "index": 47.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "투썸플레이스",
+              "index": 33.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "폴바셋",
+              "index": 32.8,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "던킨",
+              "index": 96.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "할리스",
+              "index": 82.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "이디야커피",
+              "index": 80,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "투썸플레이스",
+              "index": 66.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "메가커피",
+              "index": 65.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "스타벅스",
+              "index": 59,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "커피빈",
+              "index": 58.8,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "폴바셋",
+              "index": 52,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "컴포즈커피",
+              "index": 37.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "빽다방",
+              "index": 36.2,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "bakery": {
+      "title": "카페 · 베이커리",
+      "sub": "BAKERY CAFE",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "아우어베이커리",
+              "index": 92.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "런던베이글뮤지엄",
+              "index": 85.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "성심당",
+              "index": 79.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "도레도레",
+              "index": 78.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "오월의종",
+              "index": 75.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "이성당",
+              "index": 51.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "파리바게뜨",
+              "index": 47.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "노티드",
+              "index": 39.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "밀도",
+              "index": 37.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "뚜레쥬르",
+              "index": 33.5,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "뚜레쥬르",
+              "index": 99.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "이성당",
+              "index": 98,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "밀도",
+              "index": 96.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "아우어베이커리",
+              "index": 84.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "파리바게뜨",
+              "index": 80.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "노티드",
+              "index": 75.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "런던베이글뮤지엄",
+              "index": 71.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "성심당",
+              "index": 61.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "오월의종",
+              "index": 57.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "도레도레",
+              "index": 53.6,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "오월의종",
+              "index": 92.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "성심당",
+              "index": 90.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "파리바게뜨",
+              "index": 71.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "뚜레쥬르",
+              "index": 71.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "노티드",
+              "index": 59.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "이성당",
+              "index": 54.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "도레도레",
+              "index": 50.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "밀도",
+              "index": 43.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "런던베이글뮤지엄",
+              "index": 36,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "아우어베이커리",
+              "index": 33.2,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "파리바게뜨",
+              "index": 94.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "아우어베이커리",
+              "index": 87.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "오월의종",
+              "index": 85.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "런던베이글뮤지엄",
+              "index": 78.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "노티드",
+              "index": 72,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "뚜레쥬르",
+              "index": 62,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "이성당",
+              "index": 58.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "밀도",
+              "index": 49.9,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "도레도레",
+              "index": 36.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "성심당",
+              "index": 36.3,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "barista-domestic": {
+      "title": "바리스타 · 국내",
+      "sub": "DOMESTIC BARISTA",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "김사홍",
+              "index": 90,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "방현영",
+              "index": 88.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "신창호",
+              "index": 83.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "전주연",
+              "index": 79.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "강훈",
+              "index": 61.3,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "박이추",
+              "index": 57.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "서필훈",
+              "index": 52.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "임정환",
+              "index": 39.2,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "박이추",
+              "index": 96,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "임정환",
+              "index": 81.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "전주연",
+              "index": 62.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "김사홍",
+              "index": 59.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "서필훈",
+              "index": 46,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "신창호",
+              "index": 45.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "강훈",
+              "index": 36.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "방현영",
+              "index": 33.3,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "박이추",
+              "index": 92.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "전주연",
+              "index": 88,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "서필훈",
+              "index": 87.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "신창호",
+              "index": 87,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "김사홍",
+              "index": 80.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "임정환",
+              "index": 69.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "방현영",
+              "index": 39.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "강훈",
+              "index": 30.9,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "임정환",
+              "index": 79,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "방현영",
+              "index": 73,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "김사홍",
+              "index": 71.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "박이추",
+              "index": 44,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "서필훈",
+              "index": 42.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "전주연",
+              "index": 42.3,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "강훈",
+              "index": 41.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "신창호",
+              "index": 39.3,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "barista-intl": {
+      "title": "바리스타 · 해외",
+      "sub": "INTERNATIONAL BARISTA",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "히데노리 이자키",
+              "index": 92.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "디에고 캄포스",
+              "index": 92.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "피트 리카타",
+              "index": 89.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "팀 웬델보",
+              "index": 86.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "궬림 데이비스",
+              "index": 85.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "아그니에슈카 로예프스카",
+              "index": 74.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "샤샤 세스틱",
+              "index": 70.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "베르그 우",
+              "index": 52,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "앤더스 크리스티안센",
+              "index": 41.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "마이클 필립스",
+              "index": 32,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "디에고 캄포스",
+              "index": 98.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "피트 리카타",
+              "index": 95.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "히데노리 이자키",
+              "index": 92.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "궬림 데이비스",
+              "index": 85.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "아그니에슈카 로예프스카",
+              "index": 84.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "팀 웬델보",
+              "index": 79,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "베르그 우",
+              "index": 76.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "앤더스 크리스티안센",
+              "index": 69.2,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "샤샤 세스틱",
+              "index": 30.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "마이클 필립스",
+              "index": 30.2,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "아그니에슈카 로예프스카",
+              "index": 90.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "앤더스 크리스티안센",
+              "index": 88.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "마이클 필립스",
+              "index": 74.1,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "베르그 우",
+              "index": 70.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "디에고 캄포스",
+              "index": 63,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "피트 리카타",
+              "index": 59.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "샤샤 세스틱",
+              "index": 56.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "히데노리 이자키",
+              "index": 53,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "궬림 데이비스",
+              "index": 46.9,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "팀 웬델보",
+              "index": 32.6,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "아그니에슈카 로예프스카",
+              "index": 98.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "히데노리 이자키",
+              "index": 95.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "궬림 데이비스",
+              "index": 81.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "피트 리카타",
+              "index": 78.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "앤더스 크리스티안센",
+              "index": 76.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "마이클 필립스",
+              "index": 75,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "디에고 캄포스",
+              "index": 61.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "샤샤 세스틱",
+              "index": 58.7,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "베르그 우",
+              "index": 36.7,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "팀 웬델보",
+              "index": 32.5,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "grinder-commercial": {
+      "title": "상업용 · 그라인더",
+      "sub": "COMMERCIAL GRINDER",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Mazzer Robur",
+              "index": 89.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Ditting KR804",
+              "index": 70.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Anfim SP2",
+              "index": 70.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Baratza Forte",
+              "index": 69.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Mahlkonig EK43",
+              "index": 66.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Victoria Arduino Mythos One",
+              "index": 62,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Nuova Simonelli Mythos",
+              "index": 43.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Mahlkonig E65S",
+              "index": 39.2,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Compak K10",
+              "index": 39.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Fiorenzato F64E",
+              "index": 37.5,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Mahlkonig E65S",
+              "index": 96.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Nuova Simonelli Mythos",
+              "index": 95.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Mahlkonig EK43",
+              "index": 90.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Ditting KR804",
+              "index": 79.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Fiorenzato F64E",
+              "index": 68.7,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Anfim SP2",
+              "index": 68.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Victoria Arduino Mythos One",
+              "index": 67,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Compak K10",
+              "index": 59.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Baratza Forte",
+              "index": 58.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Mazzer Robur",
+              "index": 38.5,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Mahlkonig EK43",
+              "index": 97.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Mazzer Robur",
+              "index": 68.6,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Compak K10",
+              "index": 68.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Anfim SP2",
+              "index": 66.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Fiorenzato F64E",
+              "index": 56.7,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Victoria Arduino Mythos One",
+              "index": 56,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Baratza Forte",
+              "index": 54,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Mahlkonig E65S",
+              "index": 47.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Ditting KR804",
+              "index": 46.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Nuova Simonelli Mythos",
+              "index": 43.2,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Mahlkonig E65S",
+              "index": 94.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Mahlkonig EK43",
+              "index": 84.7,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Baratza Forte",
+              "index": 82.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Fiorenzato F64E",
+              "index": 80.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Mazzer Robur",
+              "index": 76.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Victoria Arduino Mythos One",
+              "index": 71.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Compak K10",
+              "index": 55.5,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Ditting KR804",
+              "index": 49.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Anfim SP2",
+              "index": 48.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Nuova Simonelli Mythos",
+              "index": 43.4,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "auto-commercial": {
+      "title": "상업용 · 자동머신",
+      "sub": "COMMERCIAL AUTOMATIC",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Melitta Cafina XT6",
+              "index": 88,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "WMF 1500S+",
+              "index": 65.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Schaerer Coffee Art Plus",
+              "index": 62.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Franke A600",
+              "index": 58.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Egro One",
+              "index": 51.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Jura GIGA X8 Professional",
+              "index": 46.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Thermoplan Black&White3",
+              "index": 45.3,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "San Remo Automatic",
+              "index": 41.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Necta",
+              "index": 40.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "La Cimbali S30",
+              "index": 34,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Egro One",
+              "index": 95.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "WMF 1500S+",
+              "index": 85.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "La Cimbali S30",
+              "index": 80.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "San Remo Automatic",
+              "index": 70.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Schaerer Coffee Art Plus",
+              "index": 62.3,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Thermoplan Black&White3",
+              "index": 58.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Melitta Cafina XT6",
+              "index": 55.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Franke A600",
+              "index": 43.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Jura GIGA X8 Professional",
+              "index": 42.9,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Necta",
+              "index": 31.4,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Necta",
+              "index": 97.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Melitta Cafina XT6",
+              "index": 96.6,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "San Remo Automatic",
+              "index": 90.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "WMF 1500S+",
+              "index": 80,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Franke A600",
+              "index": 73.4,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Thermoplan Black&White3",
+              "index": 68.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Jura GIGA X8 Professional",
+              "index": 58.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "La Cimbali S30",
+              "index": 57.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Egro One",
+              "index": 45.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Schaerer Coffee Art Plus",
+              "index": 34.7,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Egro One",
+              "index": 78.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Necta",
+              "index": 76.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Franke A600",
+              "index": 71.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Melitta Cafina XT6",
+              "index": 69.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Schaerer Coffee Art Plus",
+              "index": 65,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Thermoplan Black&White3",
+              "index": 54.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Jura GIGA X8 Professional",
+              "index": 49.8,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "La Cimbali S30",
+              "index": 42.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "WMF 1500S+",
+              "index": 38.9,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "San Remo Automatic",
+              "index": 30.5,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "semi-auto-commercial": {
+      "title": "상업용 · 반자동머신",
+      "sub": "COMMERCIAL SEMI-AUTO",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Wega",
+              "index": 88.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Nuova Simonelli Aurelia",
+              "index": 84,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "San Remo Verona",
+              "index": 80.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Rocket Boxer",
+              "index": 69.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "La Marzocco Linea PB",
+              "index": 67.7,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "La Marzocco GB5",
+              "index": 62.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Slayer Steam",
+              "index": 59.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Victoria Arduino Eagle One",
+              "index": 55.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Dalla Corte XT",
+              "index": 44.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Rancilio Classe 9",
+              "index": 36.9,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "La Marzocco Linea PB",
+              "index": 70.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "La Marzocco GB5",
+              "index": 69.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Rancilio Classe 9",
+              "index": 66.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Dalla Corte XT",
+              "index": 55.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "San Remo Verona",
+              "index": 52.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Victoria Arduino Eagle One",
+              "index": 50.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Rocket Boxer",
+              "index": 48.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Wega",
+              "index": 46.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Slayer Steam",
+              "index": 39.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Nuova Simonelli Aurelia",
+              "index": 32.9,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Dalla Corte XT",
+              "index": 98.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Slayer Steam",
+              "index": 88.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Rocket Boxer",
+              "index": 77.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "La Marzocco Linea PB",
+              "index": 71.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Rancilio Classe 9",
+              "index": 64.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "La Marzocco GB5",
+              "index": 57.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Victoria Arduino Eagle One",
+              "index": 48.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Wega",
+              "index": 35.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "San Remo Verona",
+              "index": 32.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Nuova Simonelli Aurelia",
+              "index": 31.5,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Dalla Corte XT",
+              "index": 99.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "La Marzocco Linea PB",
+              "index": 98.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "La Marzocco GB5",
+              "index": 93,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Nuova Simonelli Aurelia",
+              "index": 85.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Rancilio Classe 9",
+              "index": 80.4,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Wega",
+              "index": 78.5,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Slayer Steam",
+              "index": 69.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "San Remo Verona",
+              "index": 59.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Victoria Arduino Eagle One",
+              "index": 53.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Rocket Boxer",
+              "index": 45.3,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "drip-machine-commercial": {
+      "title": "상업용 · 드립머신",
+      "sub": "COMMERCIAL BATCH BREWER",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Bunn ICB",
+              "index": 99.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Newco",
+              "index": 97.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Curtis ThermoPro",
+              "index": 89.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Fetco CBS-2131",
+              "index": 82.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Wilbur Curtis G4",
+              "index": 65.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Marco Jet",
+              "index": 62.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Technivorm Commercial",
+              "index": 50.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Moccamaster Commercial",
+              "index": 46.9,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Bonavita Commercial",
+              "index": 45.5,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Grindmaster",
+              "index": 37.6,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Grindmaster",
+              "index": 89.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Bonavita Commercial",
+              "index": 79.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Marco Jet",
+              "index": 74.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Wilbur Curtis G4",
+              "index": 59.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Newco",
+              "index": 56.3,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Fetco CBS-2131",
+              "index": 50.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Bunn ICB",
+              "index": 45.1,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Curtis ThermoPro",
+              "index": 38.5,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Moccamaster Commercial",
+              "index": 35.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Technivorm Commercial",
+              "index": 33.5,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Wilbur Curtis G4",
+              "index": 96,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Marco Jet",
+              "index": 91.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Technivorm Commercial",
+              "index": 87.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Curtis ThermoPro",
+              "index": 85,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Grindmaster",
+              "index": 83.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Moccamaster Commercial",
+              "index": 75.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Bonavita Commercial",
+              "index": 74.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Fetco CBS-2131",
+              "index": 68.2,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Bunn ICB",
+              "index": 65.5,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Newco",
+              "index": 47,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Bonavita Commercial",
+              "index": 86.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Curtis ThermoPro",
+              "index": 83.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Fetco CBS-2131",
+              "index": 78.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Newco",
+              "index": 70.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Bunn ICB",
+              "index": 68.7,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Technivorm Commercial",
+              "index": 63.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Wilbur Curtis G4",
+              "index": 62.5,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Marco Jet",
+              "index": 57.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Grindmaster",
+              "index": 51.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Moccamaster Commercial",
+              "index": 31.5,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "roaster-sample-home": {
+      "title": "로스터기 · 샘플/홈",
+      "sub": "SAMPLE & HOME ROASTER",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "IKAWA Pro",
+              "index": 95.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Probatino",
+              "index": 90.7,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Gene Cafe",
+              "index": 88.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "San Franciscan",
+              "index": 86.6,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Kaldi",
+              "index": 83,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Giesen W1A",
+              "index": 80,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Aillio Bullet R1",
+              "index": 78.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "코레토 홈로스터",
+              "index": 77.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Hottop",
+              "index": 71.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Behmor 1600",
+              "index": 61.2,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Kaldi",
+              "index": 93.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Aillio Bullet R1",
+              "index": 92,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Giesen W1A",
+              "index": 86.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Gene Cafe",
+              "index": 85.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Behmor 1600",
+              "index": 72.4,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Hottop",
+              "index": 56,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "IKAWA Pro",
+              "index": 52.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "San Franciscan",
+              "index": 50,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "코레토 홈로스터",
+              "index": 45.5,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Probatino",
+              "index": 41.6,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Behmor 1600",
+              "index": 93.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Probatino",
+              "index": 91.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Giesen W1A",
+              "index": 75.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "San Franciscan",
+              "index": 72.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "IKAWA Pro",
+              "index": 47.1,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Kaldi",
+              "index": 47,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Gene Cafe",
+              "index": 42,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Hottop",
+              "index": 37.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Aillio Bullet R1",
+              "index": 32,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "코레토 홈로스터",
+              "index": 31.6,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Giesen W1A",
+              "index": 90.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Aillio Bullet R1",
+              "index": 85.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "코레토 홈로스터",
+              "index": 69.1,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Kaldi",
+              "index": 63.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "San Franciscan",
+              "index": 62.1,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Probatino",
+              "index": 59.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Hottop",
+              "index": 53.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Gene Cafe",
+              "index": 53.5,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Behmor 1600",
+              "index": 52.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "IKAWA Pro",
+              "index": 49.4,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "roaster-commercial": {
+      "title": "로스터기 · 상업용",
+      "sub": "COMMERCIAL ROASTER",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Diedrich",
+              "index": 97.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Ozturk",
+              "index": 96.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Probat",
+              "index": 92.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "태환 로스터",
+              "index": 89,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Loring Smart Roast",
+              "index": 79,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "San Franciscan",
+              "index": 79,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Giesen",
+              "index": 65.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Toper",
+              "index": 58.5,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Coffee-Tech",
+              "index": 37.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Union",
+              "index": 35.8,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Coffee-Tech",
+              "index": 100,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Giesen",
+              "index": 80.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "태환 로스터",
+              "index": 70.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Ozturk",
+              "index": 57.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Probat",
+              "index": 56.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Diedrich",
+              "index": 52.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Loring Smart Roast",
+              "index": 39.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Union",
+              "index": 39.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Toper",
+              "index": 32.7,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "San Franciscan",
+              "index": 32.4,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Loring Smart Roast",
+              "index": 95.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Toper",
+              "index": 77.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Union",
+              "index": 63.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Giesen",
+              "index": 61.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Coffee-Tech",
+              "index": 59.1,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Diedrich",
+              "index": 42.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Probat",
+              "index": 42.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "San Franciscan",
+              "index": 37.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Ozturk",
+              "index": 37.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "태환 로스터",
+              "index": 35.7,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Ozturk",
+              "index": 95.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Loring Smart Roast",
+              "index": 79.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Giesen",
+              "index": 74.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Union",
+              "index": 63.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Probat",
+              "index": 54.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "태환 로스터",
+              "index": 50.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "San Franciscan",
+              "index": 50.4,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Diedrich",
+              "index": 48.7,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Coffee-Tech",
+              "index": 42,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Toper",
+              "index": 37.2,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "grinder-home": {
+      "title": "홈카페 · 그라인더",
+      "sub": "HOME GRINDER",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Eureka Mignon",
+              "index": 99.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "DF64",
+              "index": 93.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Origin Grinder",
+              "index": 92.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Baratza Encore ESP",
+              "index": 90.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Timemore Slim",
+              "index": 83.3,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Fellow Ode",
+              "index": 83.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Weber Workshops EG-1",
+              "index": 71.3,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "1Zpresso JX-Pro",
+              "index": 64.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Niche Zero",
+              "index": 40.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Comandante C40",
+              "index": 34,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Timemore Slim",
+              "index": 99.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Baratza Encore ESP",
+              "index": 95.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Eureka Mignon",
+              "index": 89.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Niche Zero",
+              "index": 78.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Fellow Ode",
+              "index": 77.1,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Comandante C40",
+              "index": 74.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "DF64",
+              "index": 69.1,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Origin Grinder",
+              "index": 57,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "1Zpresso JX-Pro",
+              "index": 36.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Weber Workshops EG-1",
+              "index": 33.6,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Timemore Slim",
+              "index": 85.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Niche Zero",
+              "index": 84.5,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Comandante C40",
+              "index": 83.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "1Zpresso JX-Pro",
+              "index": 79,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Eureka Mignon",
+              "index": 75.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "DF64",
+              "index": 73.8,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Origin Grinder",
+              "index": 63.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Fellow Ode",
+              "index": 63.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Weber Workshops EG-1",
+              "index": 53.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Baratza Encore ESP",
+              "index": 30.3,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Origin Grinder",
+              "index": 80.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Timemore Slim",
+              "index": 79.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Niche Zero",
+              "index": 75.2,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "DF64",
+              "index": 73.6,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Comandante C40",
+              "index": 68.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Eureka Mignon",
+              "index": 57.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Fellow Ode",
+              "index": 46.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Weber Workshops EG-1",
+              "index": 45.7,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Baratza Encore ESP",
+              "index": 43.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "1Zpresso JX-Pro",
+              "index": 34.4,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "auto-home": {
+      "title": "홈카페 · 자동머신",
+      "sub": "HOME AUTOMATIC",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Jura",
+              "index": 77.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Melitta",
+              "index": 72.9,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Philips LatteGo",
+              "index": 70.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Breville Barista Express",
+              "index": 61,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Saeco",
+              "index": 61,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "De'Longhi Magnifica",
+              "index": 58.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Nespresso",
+              "index": 47,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Gaggia",
+              "index": 41.9,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "지멜코스타",
+              "index": 41.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Smeg",
+              "index": 36.8,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Jura",
+              "index": 83.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Gaggia",
+              "index": 82.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Smeg",
+              "index": 72.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Breville Barista Express",
+              "index": 61.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "지멜코스타",
+              "index": 61.3,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Philips LatteGo",
+              "index": 50.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "De'Longhi Magnifica",
+              "index": 46.3,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Saeco",
+              "index": 46.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Melitta",
+              "index": 38.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Nespresso",
+              "index": 36.3,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Melitta",
+              "index": 95.8,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Saeco",
+              "index": 95.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Smeg",
+              "index": 86.8,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Philips LatteGo",
+              "index": 66.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "De'Longhi Magnifica",
+              "index": 59.1,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "지멜코스타",
+              "index": 59.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Gaggia",
+              "index": 47.3,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Nespresso",
+              "index": 45.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Jura",
+              "index": 37.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Breville Barista Express",
+              "index": 36.2,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Breville Barista Express",
+              "index": 85,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Jura",
+              "index": 80.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "De'Longhi Magnifica",
+              "index": 74.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Nespresso",
+              "index": 66.5,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Saeco",
+              "index": 60.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Philips LatteGo",
+              "index": 53.3,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Smeg",
+              "index": 47.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Melitta",
+              "index": 45.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Gaggia",
+              "index": 44.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "지멜코스타",
+              "index": 44.3,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "dripper": {
+      "title": "추출도구 · 커피드리퍼",
+      "sub": "COFFEE DRIPPER",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "하리오 V60 드리퍼",
+              "index": 92.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "MHW-3BOMBER UFO 드리퍼",
+              "index": 89.6,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "오레아 드리퍼",
+              "index": 81.1,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "케맥스 드리퍼",
+              "index": 60,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "클레버 드리퍼",
+              "index": 54.7,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "오리가미 드리퍼",
+              "index": 51.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "칼리타 웨이브 드리퍼",
+              "index": 50.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "고노 드리퍼",
+              "index": 38.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "블루보틀 드리퍼",
+              "index": 32.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "하리오 스위치 드리퍼",
+              "index": 30.7,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "MHW-3BOMBER UFO 드리퍼",
+              "index": 87.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "오레아 드리퍼",
+              "index": 85.1,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "하리오 스위치 드리퍼",
+              "index": 79.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "클레버 드리퍼",
+              "index": 78.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "블루보틀 드리퍼",
+              "index": 68.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "하리오 V60 드리퍼",
+              "index": 65.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "케맥스 드리퍼",
+              "index": 64.1,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "고노 드리퍼",
+              "index": 63,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "칼리타 웨이브 드리퍼",
+              "index": 44.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "오리가미 드리퍼",
+              "index": 33.1,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "오레아 드리퍼",
+              "index": 82.1,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "클레버 드리퍼",
+              "index": 59.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "오리가미 드리퍼",
+              "index": 58.7,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "하리오 스위치 드리퍼",
+              "index": 57.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "케맥스 드리퍼",
+              "index": 54.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "칼리타 웨이브 드리퍼",
+              "index": 46,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "블루보틀 드리퍼",
+              "index": 37.2,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "MHW-3BOMBER UFO 드리퍼",
+              "index": 36.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "고노 드리퍼",
+              "index": 36.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "하리오 V60 드리퍼",
+              "index": 33.5,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "블루보틀 드리퍼",
+              "index": 98.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "MHW-3BOMBER UFO 드리퍼",
+              "index": 94.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "하리오 V60 드리퍼",
+              "index": 93.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "오리가미 드리퍼",
+              "index": 86.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "오레아 드리퍼",
+              "index": 81.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "케맥스 드리퍼",
+              "index": 78.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "칼리타 웨이브 드리퍼",
+              "index": 67.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "고노 드리퍼",
+              "index": 65.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "하리오 스위치 드리퍼",
+              "index": 54.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "클레버 드리퍼",
+              "index": 41.1,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "scale": {
+      "title": "추출도구 · 저울",
+      "sub": "COFFEE SCALE",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "휴대용 커피저울",
+              "index": 94.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Acaia Lunar",
+              "index": 81,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Acaia Pearl",
+              "index": 80.4,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "디지털 커피저울",
+              "index": 77.7,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Timemore Nano",
+              "index": 62.6,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "타이머 겸용 커피저울",
+              "index": 62.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Hario V60 Drip Scale",
+              "index": 60.8,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Coffee Sensor Scale",
+              "index": 55.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Brewista Smart Scale",
+              "index": 41.6,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Timemore Black Mirror",
+              "index": 35.1,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "디지털 커피저울",
+              "index": 90.6,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Hario V60 Drip Scale",
+              "index": 89.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Acaia Lunar",
+              "index": 78.9,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Timemore Nano",
+              "index": 65.6,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Acaia Pearl",
+              "index": 59.3,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "타이머 겸용 커피저울",
+              "index": 58.2,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Brewista Smart Scale",
+              "index": 58,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Coffee Sensor Scale",
+              "index": 44.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Timemore Black Mirror",
+              "index": 44,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "휴대용 커피저울",
+              "index": 33.8,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Timemore Black Mirror",
+              "index": 95.9,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Hario V60 Drip Scale",
+              "index": 78.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Acaia Pearl",
+              "index": 77.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Timemore Nano",
+              "index": 73.1,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Brewista Smart Scale",
+              "index": 67.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "휴대용 커피저울",
+              "index": 62.3,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "디지털 커피저울",
+              "index": 56.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Coffee Sensor Scale",
+              "index": 50.1,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "타이머 겸용 커피저울",
+              "index": 39.1,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Acaia Lunar",
+              "index": 34.7,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "디지털 커피저울",
+              "index": 97.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Brewista Smart Scale",
+              "index": 90.4,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Coffee Sensor Scale",
+              "index": 89.3,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Acaia Pearl",
+              "index": 87.3,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "휴대용 커피저울",
+              "index": 64,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "타이머 겸용 커피저울",
+              "index": 54.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Timemore Nano",
+              "index": 48.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Timemore Black Mirror",
+              "index": 46.7,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Hario V60 Drip Scale",
+              "index": 33.5,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Acaia Lunar",
+              "index": 32.5,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "pot": {
+      "title": "추출도구 · 커피포트",
+      "sub": "COFFEE DRIP POT",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "커피 드립케틀",
+              "index": 94.3,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "스텐 드립포트",
+              "index": 88.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Wilfa Pot",
+              "index": 83.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Kalita Wave Pot",
+              "index": 73.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Espro Pot",
+              "index": 73.2,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Bonavita Pot",
+              "index": 66,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Hario Buono",
+              "index": 64.3,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Brewista Artisan",
+              "index": 63.3,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Fellow Stagg EKG",
+              "index": 47.4,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Timemore Fish",
+              "index": 31,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Hario Buono",
+              "index": 98.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "스텐 드립포트",
+              "index": 95.2,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Kalita Wave Pot",
+              "index": 86,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "커피 드립케틀",
+              "index": 82.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Timemore Fish",
+              "index": 80.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Fellow Stagg EKG",
+              "index": 71.6,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Brewista Artisan",
+              "index": 70.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Bonavita Pot",
+              "index": 68.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Wilfa Pot",
+              "index": 50.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Espro Pot",
+              "index": 48.1,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "스텐 드립포트",
+              "index": 89.2,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Timemore Fish",
+              "index": 82.3,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Brewista Artisan",
+              "index": 76.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Kalita Wave Pot",
+              "index": 58.9,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "커피 드립케틀",
+              "index": 55.4,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Espro Pot",
+              "index": 49.1,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Hario Buono",
+              "index": 46.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Fellow Stagg EKG",
+              "index": 45.6,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Bonavita Pot",
+              "index": 40.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Wilfa Pot",
+              "index": 34.3,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Fellow Stagg EKG",
+              "index": 99.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Wilfa Pot",
+              "index": 95,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "스텐 드립포트",
+              "index": 91.6,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Brewista Artisan",
+              "index": 73.4,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Timemore Fish",
+              "index": 63.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Espro Pot",
+              "index": 55,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Hario Buono",
+              "index": 51.9,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "커피 드립케틀",
+              "index": 43,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Bonavita Pot",
+              "index": 31,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Kalita Wave Pot",
+              "index": 30,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    },
+    "drip-machine-home": {
+      "title": "홈카페 · 드립머신",
+      "sub": "HOME BATCH BREWER",
+      "periods": {
+        "daily": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "OXO Brew",
+              "index": 99.4,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Ninja Coffee Maker",
+              "index": 97.6,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Ratio Eight",
+              "index": 91.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Braun",
+              "index": 89.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Behmor Brazen",
+              "index": 85.9,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Bonavita BV1900",
+              "index": 85.7,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Chemex Ottomatic",
+              "index": 79.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Technivorm Moccamaster",
+              "index": 78,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Melitta",
+              "index": 44.2,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Russell Hobbs",
+              "index": 32.6,
+              "delta": 0
+            }
+          ]
+        },
+        "weekly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Behmor Brazen",
+              "index": 91.7,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Technivorm Moccamaster",
+              "index": 90,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Melitta",
+              "index": 84,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Chemex Ottomatic",
+              "index": 82.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Braun",
+              "index": 66.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Ratio Eight",
+              "index": 62,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "OXO Brew",
+              "index": 61.6,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Russell Hobbs",
+              "index": 40.4,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Ninja Coffee Maker",
+              "index": 35.8,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Bonavita BV1900",
+              "index": 32.5,
+              "delta": 0
+            }
+          ]
+        },
+        "monthly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Russell Hobbs",
+              "index": 89.5,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "OXO Brew",
+              "index": 72.6,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Technivorm Moccamaster",
+              "index": 68.5,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Ratio Eight",
+              "index": 66.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Bonavita BV1900",
+              "index": 60.8,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Behmor Brazen",
+              "index": 56.9,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Chemex Ottomatic",
+              "index": 56.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Melitta",
+              "index": 52.9,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "Braun",
+              "index": 48.9,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Ninja Coffee Maker",
+              "index": 36.4,
+              "delta": 0
+            }
+          ]
+        },
+        "yearly": {
+          "rows": [
+            {
+              "rank": 1,
+              "name": "Melitta",
+              "index": 96,
+              "delta": 0
+            },
+            {
+              "rank": 2,
+              "name": "Technivorm Moccamaster",
+              "index": 83.8,
+              "delta": 0
+            },
+            {
+              "rank": 3,
+              "name": "Russell Hobbs",
+              "index": 64,
+              "delta": 0
+            },
+            {
+              "rank": 4,
+              "name": "Chemex Ottomatic",
+              "index": 62.8,
+              "delta": 0
+            },
+            {
+              "rank": 5,
+              "name": "Ratio Eight",
+              "index": 58.5,
+              "delta": 0
+            },
+            {
+              "rank": 6,
+              "name": "Ninja Coffee Maker",
+              "index": 40.4,
+              "delta": 0
+            },
+            {
+              "rank": 7,
+              "name": "Behmor Brazen",
+              "index": 39.7,
+              "delta": 0
+            },
+            {
+              "rank": 8,
+              "name": "Braun",
+              "index": 34.8,
+              "delta": 0
+            },
+            {
+              "rank": 9,
+              "name": "OXO Brew",
+              "index": 31.3,
+              "delta": 0
+            },
+            {
+              "rank": 10,
+              "name": "Bonavita BV1900",
+              "index": 30.4,
+              "delta": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

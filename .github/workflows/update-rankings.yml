@@ -28,7 +28,8 @@ jobs:
         run: |
           git config user.name "coffee-rank-bot"
           git config user.email "bot@users.noreply.github.com"
-          git pull --rebase
           git add data/rankings.json
-          git diff --cached --quiet || git commit -m "chore: update rankings [skip ci]"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update rankings [skip ci]"
+          git pull --rebase
           git push

@@ -203,7 +203,9 @@ function withDelta(rows, prevRows) {
 
 async function main() {
   const previous = loadPrevious();
-  const out = { generatedAt: new Date().toISOString(), categories: {} };
+  // start from whatever is already in data/rankings.json so categories written
+  // by other scripts (e.g. backend/discover-keywords.mjs) are preserved
+  const out = { generatedAt: new Date().toISOString(), categories: { ...(previous?.categories || {}) } };
   for (const [key, cat] of Object.entries(CATS)) {
     out.categories[key] = { title: cat.title, sub: cat.sub, periods: {} };
     for (const [periodName, { days }] of Object.entries(PERIODS)) {

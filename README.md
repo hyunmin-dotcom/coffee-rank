@@ -1,3 +1,4 @@
+.github/workflows/update-rankings.yml
 # COFFEE RANK — 네이버 검색 트렌드 연동 가이드
 
 이 폴더는 정적 페이지(`index.html`)와, 실제 네이버 검색 트렌드 데이터를

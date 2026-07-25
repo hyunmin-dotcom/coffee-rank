@@ -309,6 +309,10 @@
 
   <div class="cat-groups" id="catGroups">
     <div class="cat-group-row">
+      <span class="cat-group-label">인기검색어</span>
+      <button class="chip" data-cat="discovered-trending">자동발견 TOP30</button>
+    </div>
+    <div class="cat-group-row">
       <span class="cat-group-label">생두</span>
       <button class="chip active" data-cat="green-bean-specialty">스페셜티</button>
       <button class="chip" data-cat="green-bean-commercial">커머셜</button>
@@ -415,6 +419,10 @@
 
   // ---------- Category data ----------
   const CATS = {
+    'discovered-trending': { title: '인기검색어 · 자동발견', sub: 'AUTO-DISCOVERED TRENDING', items: [
+      '커피 추천','원두 추천','캡슐커피 추천','핸드드립 세트','커피머신 추천',
+      '카페 창업','커피 구독','디카페인 원두','콜드브루 원액','커피 선물세트'
+    ]},
     'green-bean-specialty': { title: '생두 · 스페셜티', sub: 'SPECIALTY GREEN BEAN', items: [
       '파나마 게이샤','에티오피아 예가체프 G1','케냐 AA','코스타리카 따라주 게이샤','르완다 부지제로',
       '콜롬비아 게이샤','온두라스 SHG COE','인도네시아 만델링 G1','과테말라 안티구아 SHB','엘살바도르 파카마라'

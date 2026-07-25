@@ -2,7 +2,7 @@ name: Update Coffee Rankings
 
 on:
   schedule:
-    - cron: '0 * * * *'   # every hour, on the hour (UTC)
+    - cron: '0 1,9,17 * * *'   # 3x/day (UTC 01:00/09:00/17:00 = KST 10:00/18:00/02:00)
   workflow_dispatch: {}    # allows manual "Run workflow" trigger
 
 permissions:
@@ -28,6 +28,7 @@ jobs:
         run: |
           git config user.name "coffee-rank-bot"
           git config user.email "bot@users.noreply.github.com"
+          git pull --rebase
           git add data/rankings.json
           git diff --cached --quiet || git commit -m "chore: update rankings [skip ci]"
           git push

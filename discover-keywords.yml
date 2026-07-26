@@ -1,0 +1,38 @@
+name: Discover Trending Coffee Keywords
+
+on:
+  schedule:
+    - cron: '30 1,9,17 * * *'   # same 3x/day cadence, offset 30min from the DataLab job
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Discover trending coffee keywords (Naver SearchAd + DataLab)
+        run: node backend/discover-keywords.mjs
+        env:
+          NAVER_AD_API_KEY: ${{ secrets.NAVER_AD_API_KEY }}
+          NAVER_AD_SECRET_KEY: ${{ secrets.NAVER_AD_SECRET_KEY }}
+          NAVER_AD_CUSTOMER_ID: ${{ secrets.NAVER_AD_CUSTOMER_ID }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+
+      - name: Commit discovered keywords
+        run: |
+          git config user.name "coffee-rank-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/discovered.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update discovered trending keywords [skip ci]"
+          git pull --rebase
+          git push

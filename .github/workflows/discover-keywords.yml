@@ -18,12 +18,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Discover trending coffee keywords (Naver SearchAd API)
+      - name: Discover trending coffee keywords (Naver SearchAd + DataLab)
         run: node backend/discover-keywords.mjs
         env:
           NAVER_AD_API_KEY: ${{ secrets.NAVER_AD_API_KEY }}
           NAVER_AD_SECRET_KEY: ${{ secrets.NAVER_AD_SECRET_KEY }}
           NAVER_AD_CUSTOMER_ID: ${{ secrets.NAVER_AD_CUSTOMER_ID }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
 
       - name: Commit discovered keywords
         run: |

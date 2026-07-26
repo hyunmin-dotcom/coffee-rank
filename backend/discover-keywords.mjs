@@ -174,7 +174,7 @@ async function rankForWindow(candidates, days) {
 
 function loadPrevious() {
   try {
-    return JSON.parse(fs.readFileSync(path.join('data', 'rankings.json'), 'utf-8'));
+    return JSON.parse(fs.readFileSync(path.join('data', 'discovered.json'), 'utf-8'));
   } catch {
     return null;
   }
@@ -194,30 +194,31 @@ async function main() {
   console.log(`discovered ${candidates.length} candidate keywords`);
 
   const previous = loadPrevious();
-  const out = { generatedAt: new Date().toISOString(), categories: { ...(previous?.categories || {}) } };
-
-  out.categories['discovered-trending'] = {
-    title: '인기검색어 · 자동발견',
-    sub: 'AUTO-DISCOVERED (SearchAd 발견 + DataLab 기간별 트렌드)',
-    periods: {},
+  const out = {
+    generatedAt: new Date().toISOString(),
+    category: {
+      title: '인기검색어 · 자동발견',
+      sub: 'AUTO-DISCOVERED (SearchAd 발견 + DataLab 기간별 트렌드)',
+      periods: {},
+    },
   };
 
   for (const [periodName, { days }] of Object.entries(PERIODS)) {
     try {
       const rows = await rankForWindow(candidates, days);
-      const prevRows = previous?.categories?.['discovered-trending']?.periods?.[periodName]?.rows;
-      out.categories['discovered-trending'].periods[periodName] = { rows: withDelta(rows, prevRows) };
+      const prevRows = previous?.category?.periods?.[periodName]?.rows;
+      out.category.periods[periodName] = { rows: withDelta(rows, prevRows) };
       console.log('ok:', periodName, '-', rows.length, 'rows');
     } catch (e) {
       console.error('failed:', periodName, e.message);
-      const prev = previous?.categories?.['discovered-trending']?.periods?.[periodName];
-      if (prev) out.categories['discovered-trending'].periods[periodName] = prev;
+      const prev = previous?.category?.periods?.[periodName];
+      if (prev) out.category.periods[periodName] = prev;
     }
   }
 
   fs.mkdirSync('data', { recursive: true });
-  fs.writeFileSync(path.join('data', 'rankings.json'), JSON.stringify(out, null, 2));
-  console.log('wrote data/rankings.json');
+  fs.writeFileSync(path.join('data', 'discovered.json'), JSON.stringify(out, null, 2));
+  console.log('wrote data/discovered.json');
 }
 
 main();

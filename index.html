@@ -563,11 +563,28 @@
   }
 
   async function loadRemoteData(){
+    let rankings = null;
+    let discovered = null;
     try{
       const res = await fetch('./data/rankings.json', { cache: 'no-cache' });
-      if(!res.ok) throw new Error('no data file');
-      REMOTE = await res.json();
-    }catch(e){
+      if(res.ok) rankings = await res.json();
+    }catch(e){ /* fall through to mock */ }
+    try{
+      const res2 = await fetch('./data/discovered.json', { cache: 'no-cache' });
+      if(res2.ok) discovered = await res2.json();
+    }catch(e){ /* the discovered-trending chip will fall back to mock on its own */ }
+
+    if (rankings){
+      REMOTE = rankings;
+      if (discovered && discovered.category){
+        REMOTE.categories = REMOTE.categories || {};
+        REMOTE.categories['discovered-trending'] = discovered.category;
+        // surface whichever data is freshest in the header timestamp
+        if (discovered.generatedAt && (!REMOTE.generatedAt || discovered.generatedAt > REMOTE.generatedAt)) {
+          REMOTE.generatedAt = discovered.generatedAt;
+        }
+      }
+    } else {
       REMOTE = null;
     }
     renderBoard();

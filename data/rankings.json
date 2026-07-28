@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:16:32.487Z",
+  "generatedAt": "2026-07-28T20:49:42.298Z",
   "categories": {
     "green-bean-specialty": {
       "title": "생두 · 스페셜티",
@@ -151,13 +151,13 @@
               "rank": 3,
               "name": "인도네시아 만델링 G1",
               "index": 43.1,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "콜롬비아 게이샤",
               "index": 42.6,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -565,31 +565,31 @@
               "rank": 6,
               "name": "앤트러사이트 원두",
               "index": 17.5,
-              "delta": 3
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "프릳츠 커피 원두",
               "index": 10.9,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "센터커피 원두",
               "index": 10.5,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "리사르커피 원두",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 10,
               "name": "스타벅스 리저브 원두",
               "index": 0,
-              "delta": -3
+              "delta": 0
             }
           ]
         },
@@ -693,13 +693,13 @@
               "rank": 6,
               "name": "커피리브레 원두",
               "index": 13.3,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "앤트러사이트 원두",
               "index": 13.2,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
@@ -1129,13 +1129,13 @@
               "rank": 2,
               "name": "아인슈페너",
               "index": 85.8,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "디카페인 커피",
               "index": 84.6,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
@@ -1327,19 +1327,19 @@
               "rank": 2,
               "name": "커피 과학",
               "index": 36,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "커피 인사이드",
               "index": 0,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "커피 공부",
               "index": 0,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -1589,13 +1589,13 @@
               "rank": 2,
               "name": "샷글라스",
               "index": 100,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "디스트리뷰터",
               "index": 89.3,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 4,
@@ -1607,25 +1607,25 @@
               "rank": 5,
               "name": "밀크저그",
               "index": 14.3,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "WDT 툴",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "퍽 스크리너",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "커피 온도계",
               "index": 0,
-              "delta": -6
+              "delta": 0
             },
             {
               "rank": 9,
@@ -1647,13 +1647,13 @@
               "rank": 1,
               "name": "탬퍼",
               "index": 78.7,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "디스트리뷰터",
               "index": 76.4,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
@@ -1717,13 +1717,13 @@
               "rank": 2,
               "name": "디스트리뷰터",
               "index": 66.9,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "샷글라스",
               "index": 66.2,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
@@ -1851,13 +1851,13 @@
               "rank": 2,
               "name": "나무사이로",
               "index": 100,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "커피리브레",
               "index": 87.8,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
@@ -1875,13 +1875,13 @@
               "rank": 6,
               "name": "어니언",
               "index": 11.8,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "대림창고",
               "index": 11.5,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
@@ -2235,13 +2235,13 @@
               "rank": 1,
               "name": "메가커피",
               "index": 75.6,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "빽다방",
               "index": 75.5,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
@@ -2503,13 +2503,13 @@
               "rank": 2,
               "name": "파리바게뜨",
               "index": 70.1,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "뚜레쥬르",
               "index": 56.5,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
@@ -4941,49 +4941,49 @@
               "rank": 1,
               "name": "Saeco",
               "index": 100,
-              "delta": 7
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Smeg",
               "index": 100,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Nespresso",
               "index": 40,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Jura",
               "index": 12.9,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "De'Longhi Magnifica",
               "index": 0,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Breville Barista Express",
               "index": 0,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Philips LatteGo",
               "index": 0,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "지멜코스타",
               "index": 0,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -5005,31 +5005,31 @@
               "rank": 1,
               "name": "Saeco",
               "index": 100,
-              "delta": 9
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Smeg",
               "index": 82,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Nespresso",
               "index": 34.1,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Jura",
               "index": 14.3,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Gaggia",
               "index": 7.1,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
@@ -5059,7 +5059,7 @@
               "rank": 10,
               "name": "Melitta",
               "index": 0,
-              "delta": -5
+              "delta": 0
             }
           ]
         },
@@ -5233,13 +5233,13 @@
               "rank": 6,
               "name": "하리오 V60 드리퍼",
               "index": 31.5,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "칼리타 웨이브 드리퍼",
               "index": 22.2,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
@@ -5291,25 +5291,25 @@
               "rank": 5,
               "name": "하리오 스위치 드리퍼",
               "index": 15.7,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "하리오 V60 드리퍼",
               "index": 15.3,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "칼리타 웨이브 드리퍼",
               "index": 14.1,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "고노 드리퍼",
               "index": 13.3,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -6065,49 +6065,49 @@
               "rank": 3,
               "name": "Technivorm Moccamaster",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Bonavita BV1900",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "OXO Brew",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Chemex Ottomatic",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Ratio Eight",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "Behmor Brazen",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "Ninja Coffee Maker",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 10,
               "name": "Melitta",
               "index": 0,
-              "delta": -7
+              "delta": 0
             }
           ]
         },

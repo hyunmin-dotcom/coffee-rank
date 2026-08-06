@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T20:47:10.954Z",
+  "generatedAt": "2026-08-06T10:57:20.366Z",
   "categories": {
     "green-bean-specialty": {
       "title": "생두 · 스페셜티",
@@ -9,9 +9,9 @@
           "rows": [
             {
               "rank": 1,
-              "name": "케냐 AA",
+              "name": "파나마 게이샤",
               "index": 100,
-              "delta": 0
+              "delta": 2
             },
             {
               "rank": 2,
@@ -21,20 +21,20 @@
             },
             {
               "rank": 3,
-              "name": "파나마 게이샤",
-              "index": 75,
-              "delta": 0
+              "name": "케냐 AA",
+              "index": 67.7,
+              "delta": -2
             },
             {
               "rank": 4,
-              "name": "인도네시아 만델링 G1",
-              "index": 60,
-              "delta": 0
+              "name": "콜롬비아 게이샤",
+              "index": 43.8,
+              "delta": 4
             },
             {
               "rank": 5,
               "name": "에티오피아 예가체프 G1",
-              "index": 8.8,
+              "index": 0,
               "delta": 0
             },
             {
@@ -51,15 +51,15 @@
             },
             {
               "rank": 8,
-              "name": "콜롬비아 게이샤",
+              "name": "온두라스 SHG COE",
               "index": 0,
-              "delta": 0
+              "delta": 1
             },
             {
               "rank": 9,
-              "name": "온두라스 SHG COE",
+              "name": "인도네시아 만델링 G1",
               "index": 0,
-              "delta": 0
+              "delta": -5
             },
             {
               "rank": 10,
@@ -73,38 +73,38 @@
           "rows": [
             {
               "rank": 1,
-              "name": "케냐 AA",
-              "index": 80,
-              "delta": 0
+              "name": "과테말라 안티구아 SHB",
+              "index": 83.3,
+              "delta": 2
             },
             {
               "rank": 2,
-              "name": "파나마 게이샤",
-              "index": 68.6,
-              "delta": 0
+              "name": "케냐 AA",
+              "index": 76.9,
+              "delta": -1
             },
             {
               "rank": 3,
-              "name": "과테말라 안티구아 SHB",
-              "index": 64.4,
-              "delta": 0
+              "name": "파나마 게이샤",
+              "index": 70.6,
+              "delta": -1
             },
             {
               "rank": 4,
               "name": "콜롬비아 게이샤",
-              "index": 48.9,
+              "index": 45.8,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "인도네시아 만델링 G1",
-              "index": 46.7,
+              "index": 43.8,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "에티오피아 예가체프 G1",
-              "index": 6.5,
+              "index": 6.6,
               "delta": 0
             },
             {
@@ -138,32 +138,32 @@
             {
               "rank": 1,
               "name": "케냐 AA",
-              "index": 78.1,
+              "index": 77,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "파나마 게이샤",
-              "index": 64.4,
+              "index": 65.1,
               "delta": 0
             },
             {
               "rank": 3,
-              "name": "콜롬비아 게이샤",
-              "index": 43.4,
-              "delta": 0
+              "name": "과테말라 안티구아 SHB",
+              "index": 51.6,
+              "delta": 2
             },
             {
               "rank": 4,
               "name": "인도네시아 만델링 G1",
-              "index": 42.4,
+              "index": 45,
               "delta": 0
             },
             {
               "rank": 5,
-              "name": "과테말라 안티구아 SHB",
-              "index": 42,
-              "delta": 0
+              "name": "콜롬비아 게이샤",
+              "index": 42.2,
+              "delta": -2
             },
             {
               "rank": 6,
@@ -214,7 +214,7 @@
             {
               "rank": 3,
               "name": "과테말라 안티구아 SHB",
-              "index": 34.6,
+              "index": 36.6,
               "delta": 0
             },
             {
@@ -278,13 +278,13 @@
             {
               "rank": 2,
               "name": "콜롬비아 수프리모",
-              "index": 22.4,
+              "index": 33.8,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "브라질 산토스",
-              "index": 0,
+              "index": 13.5,
               "delta": 0
             },
             {
@@ -335,20 +335,20 @@
           "rows": [
             {
               "rank": 1,
-              "name": "콜롬비아 수프리모",
-              "index": 28.4,
-              "delta": 0
+              "name": "베트남 로부스타",
+              "index": 36.7,
+              "delta": 1
             },
             {
               "rank": 2,
-              "name": "베트남 로부스타",
-              "index": 24.8,
-              "delta": 0
+              "name": "콜롬비아 수프리모",
+              "index": 30.8,
+              "delta": -1
             },
             {
               "rank": 3,
               "name": "브라질 산토스",
-              "index": 8.9,
+              "index": 10.3,
               "delta": 0
             },
             {
@@ -400,19 +400,19 @@
             {
               "rank": 1,
               "name": "베트남 로부스타",
-              "index": 31.4,
+              "index": 32.5,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "콜롬비아 수프리모",
-              "index": 21.7,
+              "index": 21.8,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "브라질 산토스",
-              "index": 9.4,
+              "index": 9.3,
               "delta": 0
             },
             {
@@ -476,7 +476,7 @@
             {
               "rank": 3,
               "name": "베트남 로부스타",
-              "index": 33.8,
+              "index": 33.9,
               "delta": 0
             },
             {
@@ -546,38 +546,38 @@
             {
               "rank": 3,
               "name": "모모스커피 원두",
-              "index": 97.4,
+              "index": 96,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "블루보틀 원두",
-              "index": 69.8,
+              "index": 76.8,
               "delta": 0
             },
             {
               "rank": 5,
-              "name": "센터커피 원두",
-              "index": 55.6,
-              "delta": 0
+              "name": "커피리브레 원두",
+              "index": 36,
+              "delta": 1
             },
             {
               "rank": 6,
-              "name": "커피리브레 원두",
-              "index": 48.3,
-              "delta": 0
+              "name": "앤트러사이트 원두",
+              "index": 16.7,
+              "delta": 1
             },
             {
               "rank": 7,
-              "name": "앤트러사이트 원두",
-              "index": 29.6,
-              "delta": 0
+              "name": "프릳츠 커피 원두",
+              "index": 0,
+              "delta": 1
             },
             {
               "rank": 8,
-              "name": "프릳츠 커피 원두",
-              "index": 4.3,
-              "delta": 0
+              "name": "센터커피 원두",
+              "index": 0,
+              "delta": -3
             },
             {
               "rank": 9,
@@ -604,25 +604,25 @@
             {
               "rank": 2,
               "name": "테라로사 원두",
-              "index": 80.8,
+              "index": 82.9,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "모모스커피 원두",
-              "index": 80.6,
+              "index": 82.6,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "블루보틀 원두",
-              "index": 50.6,
+              "index": 53,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "커피리브레 원두",
-              "index": 30.4,
+              "index": 30.9,
               "delta": 0
             },
             {
@@ -634,13 +634,13 @@
             {
               "rank": 7,
               "name": "앤트러사이트 원두",
-              "index": 25.6,
+              "index": 23.3,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "프릳츠 커피 원두",
-              "index": 5.9,
+              "index": 6.5,
               "delta": 0
             },
             {
@@ -662,43 +662,43 @@
             {
               "rank": 1,
               "name": "모모스커피 원두",
-              "index": 66.7,
+              "index": 65.5,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "테라로사 원두",
-              "index": 56.6,
+              "index": 56.4,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "나무사이로 원두",
-              "index": 47,
+              "index": 46.8,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "블루보틀 원두",
-              "index": 38.7,
+              "index": 39.1,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "커피리브레 원두",
-              "index": 15.3,
+              "index": 15.6,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "센터커피 원두",
-              "index": 13.7,
+              "index": 13.6,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "앤트러사이트 원두",
-              "index": 12.6,
+              "index": 12.3,
               "delta": 0
             },
             {
@@ -738,7 +738,7 @@
             {
               "rank": 3,
               "name": "모모스커피 원두",
-              "index": 39.8,
+              "index": 39.9,
               "delta": 0
             },
             {
@@ -808,7 +808,7 @@
             {
               "rank": 3,
               "name": "폴바셋 드립백",
-              "index": 16,
+              "index": 15.7,
               "delta": 0
             },
             {
@@ -860,19 +860,19 @@
             {
               "rank": 1,
               "name": "돌체구스토 캡슐",
-              "index": 91.5,
+              "index": 92.8,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "네스프레소 오리지널 캡슐",
-              "index": 61.5,
+              "index": 65.2,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "폴바셋 드립백",
-              "index": 11.9,
+              "index": 11.6,
               "delta": 0
             },
             {
@@ -924,19 +924,19 @@
             {
               "rank": 1,
               "name": "돌체구스토 캡슐",
-              "index": 73.7,
+              "index": 73,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "네스프레소 오리지널 캡슐",
-              "index": 59,
+              "index": 59.4,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "폴바셋 드립백",
-              "index": 15.5,
+              "index": 14.6,
               "delta": 0
             },
             {
@@ -988,7 +988,7 @@
             {
               "rank": 1,
               "name": "돌체구스토 캡슐",
-              "index": 63.1,
+              "index": 63,
               "delta": 0
             },
             {
@@ -1070,37 +1070,37 @@
             {
               "rank": 3,
               "name": "더치커피",
-              "index": 72.2,
+              "index": 69.4,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "돌체라떼",
-              "index": 45.1,
+              "index": 42.9,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "디카페인 커피",
-              "index": 38.4,
+              "index": 34.4,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "코코넛라떼",
-              "index": 9.8,
+              "index": 7.6,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "흑당라떼",
-              "index": 3.5,
+              "index": 6.3,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "피스타치오 라떼",
-              "index": 1.8,
+              "index": 0.8,
               "delta": 0
             },
             {
@@ -1122,49 +1122,49 @@
             {
               "rank": 1,
               "name": "아인슈페너",
-              "index": 87.1,
+              "index": 86.7,
               "delta": 0
             },
             {
               "rank": 2,
-              "name": "더치커피",
-              "index": 53.5,
-              "delta": 0
+              "name": "콜드브루",
+              "index": 55.1,
+              "delta": 1
             },
             {
               "rank": 3,
-              "name": "콜드브루",
-              "index": 50.4,
-              "delta": 0
+              "name": "더치커피",
+              "index": 53.9,
+              "delta": -1
             },
             {
               "rank": 4,
               "name": "돌체라떼",
-              "index": 37.9,
+              "index": 38.2,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "디카페인 커피",
-              "index": 21.4,
+              "index": 21.1,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "코코넛라떼",
-              "index": 6.5,
+              "index": 6.4,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "흑당라떼",
-              "index": 3.5,
+              "index": 3.8,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "피스타치오 라떼",
-              "index": 0.7,
+              "index": 0.6,
               "delta": 0
             },
             {
@@ -1186,31 +1186,31 @@
             {
               "rank": 1,
               "name": "아인슈페너",
-              "index": 66.1,
+              "index": 66.4,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "더치커피",
-              "index": 40.9,
+              "index": 41,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "콜드브루",
-              "index": 31.6,
+              "index": 32.8,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "돌체라떼",
-              "index": 26.2,
+              "index": 26.3,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "디카페인 커피",
-              "index": 23.2,
+              "index": 23,
               "delta": 0
             },
             {
@@ -1222,7 +1222,7 @@
             {
               "rank": 7,
               "name": "흑당라떼",
-              "index": 2.4,
+              "index": 2.5,
               "delta": 0
             },
             {
@@ -1250,7 +1250,7 @@
             {
               "rank": 1,
               "name": "아인슈페너",
-              "index": 40,
+              "index": 39.9,
               "delta": 0
             },
             {
@@ -1280,7 +1280,7 @@
             {
               "rank": 6,
               "name": "코코넛라떼",
-              "index": 1.9,
+              "index": 1.8,
               "delta": 0
             },
             {
@@ -1325,57 +1325,57 @@
             },
             {
               "rank": 2,
-              "name": "커피 인사이드",
-              "index": 17.2,
-              "delta": 0
+              "name": "커피 테이스팅",
+              "index": 100,
+              "delta": 8
             },
             {
               "rank": 3,
-              "name": "커피 공부",
-              "index": 17.2,
-              "delta": 0
+              "name": "커피 인사이드",
+              "index": 0,
+              "delta": -1
             },
             {
               "rank": 4,
-              "name": "커피 과학",
+              "name": "커피 공부",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 5,
-              "name": "스페셜티 커피 대백과",
+              "name": "커피 과학",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 6,
-              "name": "커피 아틀라스",
+              "name": "스페셜티 커피 대백과",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 7,
-              "name": "카페를 하다",
+              "name": "커피 아틀라스",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 8,
-              "name": "홈카페의 정석",
+              "name": "카페를 하다",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 9,
-              "name": "바리스타를 위한 커피 과학",
+              "name": "홈카페의 정석",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 10,
-              "name": "커피 테이스팅",
+              "name": "바리스타를 위한 커피 과학",
               "index": 0,
-              "delta": 0
+              "delta": -1
             }
           ]
         },
@@ -1396,25 +1396,25 @@
             {
               "rank": 3,
               "name": "커피 로스팅",
-              "index": 75.8,
+              "index": 69.1,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "커피 과학",
-              "index": 22.7,
+              "index": 25.8,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "커피 인사이드",
-              "index": 22.2,
+              "index": 23.7,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "커피 공부",
-              "index": 15.2,
+              "index": 16.1,
               "delta": 0
             },
             {
@@ -1460,7 +1460,7 @@
             {
               "rank": 3,
               "name": "커피 로스팅",
-              "index": 60.6,
+              "index": 59.2,
               "delta": 0
             },
             {
@@ -1518,13 +1518,13 @@
             {
               "rank": 2,
               "name": "커피 로스팅",
-              "index": 42.3,
+              "index": 42.1,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "커피 테이스팅",
-              "index": 41.2,
+              "index": 41.1,
               "delta": 0
             },
             {
@@ -1536,7 +1536,7 @@
             {
               "rank": 5,
               "name": "커피 인사이드",
-              "index": 9.9,
+              "index": 9.8,
               "delta": 0
             },
             {
@@ -1587,45 +1587,45 @@
             },
             {
               "rank": 2,
-              "name": "샷글라스",
+              "name": "디스트리뷰터",
               "index": 100,
-              "delta": 0
+              "delta": 1
             },
             {
               "rank": 3,
-              "name": "디스트리뷰터",
-              "index": 98.7,
-              "delta": 0
+              "name": "샷글라스",
+              "index": 100,
+              "delta": -1
             },
             {
               "rank": 4,
               "name": "넉박스",
-              "index": 77.6,
+              "index": 77.5,
               "delta": 0
             },
             {
               "rank": 5,
-              "name": "밀크저그",
-              "index": 9.2,
-              "delta": 0
+              "name": "커피 온도계",
+              "index": 40,
+              "delta": 3
             },
             {
               "rank": 6,
-              "name": "WDT 툴",
-              "index": 0,
-              "delta": 0
+              "name": "밀크저그",
+              "index": 14.1,
+              "delta": -1
             },
             {
               "rank": 7,
-              "name": "퍽 스크리너",
+              "name": "WDT 툴",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 8,
-              "name": "커피 온도계",
+              "name": "퍽 스크리너",
               "index": 0,
-              "delta": 0
+              "delta": -1
             },
             {
               "rank": 9,
@@ -1646,25 +1646,25 @@
             {
               "rank": 1,
               "name": "탬퍼",
-              "index": 82.5,
+              "index": 85.5,
               "delta": 0
             },
             {
               "rank": 2,
-              "name": "디스트리뷰터",
-              "index": 78.8,
-              "delta": 0
+              "name": "샷글라스",
+              "index": 79.8,
+              "delta": 1
             },
             {
               "rank": 3,
-              "name": "샷글라스",
-              "index": 76.5,
-              "delta": 0
+              "name": "디스트리뷰터",
+              "index": 79,
+              "delta": -1
             },
             {
               "rank": 4,
               "name": "넉박스",
-              "index": 73.9,
+              "index": 73,
               "delta": 0
             },
             {
@@ -1710,31 +1710,31 @@
             {
               "rank": 1,
               "name": "탬퍼",
-              "index": 72.9,
+              "index": 72.7,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "디스트리뷰터",
-              "index": 66,
+              "index": 66.4,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "샷글라스",
-              "index": 65.2,
+              "index": 65,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "넉박스",
-              "index": 59.2,
+              "index": 59.1,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "커피 온도계",
-              "index": 40.7,
+              "index": 39,
               "delta": 0
             },
             {
@@ -1774,13 +1774,13 @@
             {
               "rank": 1,
               "name": "샷글라스",
-              "index": 48.3,
+              "index": 48.2,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "디스트리뷰터",
-              "index": 42.6,
+              "index": 42.5,
               "delta": 0
             },
             {
@@ -1792,7 +1792,7 @@
             {
               "rank": 4,
               "name": "넉박스",
-              "index": 37.6,
+              "index": 37.5,
               "delta": 0
             },
             {
@@ -1856,43 +1856,43 @@
             {
               "rank": 3,
               "name": "테라로사",
-              "index": 62.3,
+              "index": 61,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "나무사이로",
-              "index": 45.1,
+              "index": 49.9,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "리사르커피",
-              "index": 29.2,
+              "index": 28.5,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "어니언",
-              "index": 14.4,
+              "index": 13.9,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "대림창고",
-              "index": 13.2,
+              "index": 12.7,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "앤트러사이트",
-              "index": 5.8,
+              "index": 10.1,
               "delta": 0
             },
             {
               "rank": 9,
               "name": "센터커피",
-              "index": 4.6,
+              "index": 4.2,
               "delta": 0
             },
             {
@@ -1908,55 +1908,55 @@
             {
               "rank": 1,
               "name": "모모스커피",
-              "index": 94.2,
+              "index": 93.3,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "커피리브레",
-              "index": 85.9,
+              "index": 83.7,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "테라로사",
-              "index": 56.9,
+              "index": 57.8,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "나무사이로",
-              "index": 42.8,
+              "index": 42.5,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "리사르커피",
-              "index": 27.3,
+              "index": 26.5,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "어니언",
-              "index": 12.4,
+              "index": 12.5,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "대림창고",
-              "index": 12.2,
+              "index": 11.9,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "앤트러사이트",
-              "index": 4.1,
+              "index": 4.8,
               "delta": 0
             },
             {
               "rank": 9,
               "name": "센터커피",
-              "index": 3.9,
+              "index": 3.8,
               "delta": 0
             },
             {
@@ -1972,49 +1972,49 @@
             {
               "rank": 1,
               "name": "모모스커피",
-              "index": 82,
+              "index": 82.3,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "커피리브레",
-              "index": 79.8,
+              "index": 81.2,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "테라로사",
-              "index": 48.2,
+              "index": 48.5,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "나무사이로",
-              "index": 43.4,
+              "index": 44.5,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "리사르커피",
-              "index": 26.7,
+              "index": 27.4,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "어니언",
-              "index": 13.3,
+              "index": 13.6,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "대림창고",
-              "index": 10.5,
+              "index": 10.8,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "앤트러사이트",
-              "index": 3.7,
+              "index": 3.8,
               "delta": 0
             },
             {
@@ -2042,7 +2042,7 @@
             {
               "rank": 2,
               "name": "모모스커피",
-              "index": 36.6,
+              "index": 36.7,
               "delta": 0
             },
             {
@@ -2118,49 +2118,49 @@
             {
               "rank": 3,
               "name": "스타벅스",
-              "index": 65,
+              "index": 82.6,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "투썸플레이스",
-              "index": 61.8,
+              "index": 56.8,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "커피빈",
-              "index": 43.5,
+              "index": 37.6,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "폴바셋",
-              "index": 36.2,
+              "index": 36.5,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "컴포즈커피",
-              "index": 32.1,
+              "index": 30.7,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "할리스",
-              "index": 16.1,
+              "index": 16.7,
               "delta": 0
             },
             {
               "rank": 9,
               "name": "던킨",
-              "index": 11.6,
+              "index": 12.6,
               "delta": 0
             },
             {
               "rank": 10,
               "name": "이디야커피",
-              "index": 5.4,
+              "index": 5.6,
               "delta": 0
             }
           ]
@@ -2170,55 +2170,55 @@
             {
               "rank": 1,
               "name": "빽다방",
-              "index": 89.3,
+              "index": 89,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "메가커피",
-              "index": 88.6,
+              "index": 89,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "스타벅스",
-              "index": 57.5,
+              "index": 60.4,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "투썸플레이스",
-              "index": 50.3,
+              "index": 51.2,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "폴바셋",
-              "index": 34.4,
+              "index": 33.9,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "컴포즈커피",
-              "index": 28.1,
+              "index": 28.3,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "커피빈",
-              "index": 23,
+              "index": 24.6,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "할리스",
-              "index": 21.1,
+              "index": 17.9,
               "delta": 0
             },
             {
               "rank": 9,
               "name": "던킨",
-              "index": 11.6,
+              "index": 11.3,
               "delta": 0
             },
             {
@@ -2234,25 +2234,25 @@
             {
               "rank": 1,
               "name": "빽다방",
-              "index": 77.5,
+              "index": 78,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "메가커피",
-              "index": 76.8,
+              "index": 77.7,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "스타벅스",
-              "index": 53,
+              "index": 54,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "투썸플레이스",
-              "index": 44.3,
+              "index": 44.8,
               "delta": 0
             },
             {
@@ -2264,19 +2264,19 @@
             {
               "rank": 6,
               "name": "컴포즈커피",
-              "index": 24.6,
+              "index": 24.8,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "커피빈",
-              "index": 18.9,
+              "index": 19.3,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "할리스",
-              "index": 15.1,
+              "index": 15.2,
               "delta": 0
             },
             {
@@ -2380,49 +2380,49 @@
             {
               "rank": 3,
               "name": "아우어베이커리",
-              "index": 90.6,
+              "index": 78.5,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "뚜레쥬르",
-              "index": 80,
+              "index": 74.9,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "밀도",
-              "index": 57.1,
+              "index": 51.6,
               "delta": 0
             },
             {
               "rank": 6,
-              "name": "오월의종",
-              "index": 17.4,
-              "delta": 0
+              "name": "도레도레",
+              "index": 19,
+              "delta": 1
             },
             {
               "rank": 7,
-              "name": "도레도레",
-              "index": 16.9,
-              "delta": 0
+              "name": "오월의종",
+              "index": 14.8,
+              "delta": -1
             },
             {
               "rank": 8,
               "name": "이성당",
-              "index": 11.2,
+              "index": 9,
               "delta": 0
             },
             {
               "rank": 9,
               "name": "런던베이글뮤지엄",
-              "index": 5.2,
+              "index": 5.1,
               "delta": 0
             },
             {
               "rank": 10,
               "name": "노티드",
-              "index": 4,
+              "index": 3.8,
               "delta": 0
             }
           ]
@@ -2432,43 +2432,43 @@
             {
               "rank": 1,
               "name": "성심당",
-              "index": 94.4,
+              "index": 93.8,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "파리바게뜨",
-              "index": 71.7,
+              "index": 71.6,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "아우어베이커리",
-              "index": 63.6,
+              "index": 64.7,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "뚜레쥬르",
-              "index": 60.9,
+              "index": 60.3,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "밀도",
-              "index": 34.1,
+              "index": 34.5,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "도레도레",
-              "index": 11.8,
+              "index": 11.9,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "오월의종",
-              "index": 10.6,
+              "index": 10.4,
               "delta": 0
             },
             {
@@ -2496,37 +2496,37 @@
             {
               "rank": 1,
               "name": "성심당",
-              "index": 85.3,
+              "index": 86.5,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "파리바게뜨",
-              "index": 68.8,
+              "index": 68.7,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "뚜레쥬르",
-              "index": 57.8,
+              "index": 56.9,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "아우어베이커리",
-              "index": 50.1,
+              "index": 50.3,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "밀도",
-              "index": 29.2,
+              "index": 29.3,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "도레도레",
-              "index": 13.2,
+              "index": 13.3,
               "delta": 0
             },
             {
@@ -2642,19 +2642,19 @@
             {
               "rank": 3,
               "name": "신창호",
-              "index": 13,
+              "index": 35.8,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "전주연",
-              "index": 9.3,
+              "index": 7.4,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "서필훈",
-              "index": 2.3,
+              "index": 2.6,
               "delta": 0
             },
             {
@@ -2666,7 +2666,7 @@
             {
               "rank": 7,
               "name": "김사홍",
-              "index": 0.1,
+              "index": 0.3,
               "delta": 0
             },
             {
@@ -2682,31 +2682,31 @@
             {
               "rank": 1,
               "name": "임정환",
-              "index": 82.4,
+              "index": 83.3,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "강훈",
-              "index": 39.2,
+              "index": 45.5,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "신창호",
-              "index": 21.1,
+              "index": 21.2,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "전주연",
-              "index": 10.8,
+              "index": 9.6,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "서필훈",
-              "index": 2.6,
+              "index": 2.5,
               "delta": 0
             },
             {
@@ -2734,25 +2734,25 @@
             {
               "rank": 1,
               "name": "임정환",
-              "index": 66.4,
+              "index": 67.3,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "강훈",
-              "index": 24.5,
+              "index": 26.5,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "신창호",
-              "index": 16,
+              "index": 16.4,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "전주연",
-              "index": 15.3,
+              "index": 15.2,
               "delta": 0
             },
             {
@@ -2764,7 +2764,7 @@
             {
               "rank": 6,
               "name": "서필훈",
-              "index": 2.4,
+              "index": 2.3,
               "delta": 0
             },
             {
@@ -2792,7 +2792,7 @@
             {
               "rank": 2,
               "name": "강훈",
-              "index": 7.5,
+              "index": 7.6,
               "delta": 0
             },
             {
@@ -3432,7 +3432,7 @@
             {
               "rank": 1,
               "name": "Necta",
-              "index": 51.8,
+              "index": 57.1,
               "delta": 0
             },
             {
@@ -4218,7 +4218,7 @@
             {
               "rank": 1,
               "name": "Kaldi",
-              "index": 84,
+              "index": 87.4,
               "delta": 0
             },
             {
@@ -4282,7 +4282,7 @@
             {
               "rank": 1,
               "name": "Kaldi",
-              "index": 54.8,
+              "index": 55.9,
               "delta": 0
             },
             {
@@ -4352,7 +4352,7 @@
             {
               "rank": 2,
               "name": "Kaldi",
-              "index": 46.6,
+              "index": 46.5,
               "delta": 0
             },
             {
@@ -4492,7 +4492,7 @@
             {
               "rank": 3,
               "name": "Union",
-              "index": 78.7,
+              "index": 83.9,
               "delta": 0
             },
             {
@@ -4608,7 +4608,7 @@
             {
               "rank": 1,
               "name": "Union",
-              "index": 52.3,
+              "index": 52.2,
               "delta": 0
             },
             {
@@ -4742,7 +4742,7 @@
             {
               "rank": 1,
               "name": "DF64",
-              "index": 62.2,
+              "index": 60.1,
               "delta": 0
             },
             {
@@ -4805,27 +4805,27 @@
           "rows": [
             {
               "rank": 1,
-              "name": "1Zpresso JX-Pro",
+              "name": "Niche Zero",
               "index": 100,
-              "delta": 0
+              "delta": 1
             },
             {
               "rank": 2,
-              "name": "Niche Zero",
-              "index": 100,
-              "delta": 0
+              "name": "DF64",
+              "index": 59.2,
+              "delta": 1
             },
             {
               "rank": 3,
-              "name": "DF64",
-              "index": 59.5,
-              "delta": 0
+              "name": "Comandante C40",
+              "index": 0,
+              "delta": 1
             },
             {
               "rank": 4,
-              "name": "Comandante C40",
+              "name": "1Zpresso JX-Pro",
               "index": 0,
-              "delta": 0
+              "delta": -3
             },
             {
               "rank": 5,
@@ -4939,51 +4939,51 @@
           "rows": [
             {
               "rank": 1,
-              "name": "Saeco",
+              "name": "Smeg",
               "index": 100,
-              "delta": 0
+              "delta": 1
             },
             {
               "rank": 2,
-              "name": "Smeg",
-              "index": 100,
-              "delta": 0
+              "name": "Nespresso",
+              "index": 48.1,
+              "delta": 1
             },
             {
               "rank": 3,
-              "name": "Nespresso",
-              "index": 51,
-              "delta": 0
+              "name": "Jura",
+              "index": 9.6,
+              "delta": 1
             },
             {
               "rank": 4,
-              "name": "Jura",
-              "index": 33.3,
-              "delta": 0
+              "name": "De'Longhi Magnifica",
+              "index": 0,
+              "delta": 1
             },
             {
               "rank": 5,
-              "name": "De'Longhi Magnifica",
+              "name": "Breville Barista Express",
               "index": 0,
-              "delta": 0
+              "delta": 1
             },
             {
               "rank": 6,
-              "name": "Breville Barista Express",
+              "name": "Philips LatteGo",
               "index": 0,
-              "delta": 0
+              "delta": 1
             },
             {
               "rank": 7,
-              "name": "Philips LatteGo",
+              "name": "지멜코스타",
               "index": 0,
-              "delta": 0
+              "delta": 1
             },
             {
               "rank": 8,
-              "name": "지멜코스타",
+              "name": "Saeco",
               "index": 0,
-              "delta": 0
+              "delta": -7
             },
             {
               "rank": 9,
@@ -5010,19 +5010,19 @@
             {
               "rank": 2,
               "name": "Smeg",
-              "index": 72.7,
+              "index": 72.9,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "Nespresso",
-              "index": 26.1,
+              "index": 27.6,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "Jura",
-              "index": 13.2,
+              "index": 11.8,
               "delta": 0
             },
             {
@@ -5074,25 +5074,25 @@
             {
               "rank": 2,
               "name": "Smeg",
-              "index": 60.5,
+              "index": 60.7,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "Nespresso",
-              "index": 29.9,
+              "index": 29.6,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "Jura",
-              "index": 12.5,
+              "index": 11.6,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "Gaggia",
-              "index": 7.3,
+              "index": 7,
               "delta": 0
             },
             {
@@ -5150,7 +5150,7 @@
             {
               "rank": 4,
               "name": "Jura",
-              "index": 3.4,
+              "index": 3.3,
               "delta": 0
             },
             {
@@ -5213,33 +5213,33 @@
             },
             {
               "rank": 3,
-              "name": "클레버 드리퍼",
-              "index": 60,
-              "delta": 0
+              "name": "블루보틀 드리퍼",
+              "index": 65.8,
+              "delta": 1
             },
             {
               "rank": 4,
-              "name": "블루보틀 드리퍼",
-              "index": 44.4,
-              "delta": 0
+              "name": "클레버 드리퍼",
+              "index": 21.1,
+              "delta": -1
             },
             {
               "rank": 5,
-              "name": "칼리타 웨이브 드리퍼",
-              "index": 8.8,
-              "delta": 0
+              "name": "하리오 V60 드리퍼",
+              "index": 15.5,
+              "delta": 2
             },
             {
               "rank": 6,
-              "name": "고노 드리퍼",
-              "index": 8.8,
-              "delta": 0
+              "name": "칼리타 웨이브 드리퍼",
+              "index": 15.5,
+              "delta": -1
             },
             {
               "rank": 7,
-              "name": "하리오 V60 드리퍼",
-              "index": 0,
-              "delta": 0
+              "name": "고노 드리퍼",
+              "index": 11.3,
+              "delta": -1
             },
             {
               "rank": 8,
@@ -5266,55 +5266,55 @@
             {
               "rank": 1,
               "name": "오레아 드리퍼",
-              "index": 89.3,
+              "index": 89,
               "delta": 0
             },
             {
               "rank": 2,
               "name": "오리가미 드리퍼",
-              "index": 55,
+              "index": 57.8,
               "delta": 0
             },
             {
               "rank": 3,
-              "name": "클레버 드리퍼",
-              "index": 39.9,
-              "delta": 0
+              "name": "블루보틀 드리퍼",
+              "index": 41.4,
+              "delta": 1
             },
             {
               "rank": 4,
-              "name": "블루보틀 드리퍼",
-              "index": 38.4,
-              "delta": 0
+              "name": "클레버 드리퍼",
+              "index": 37.5,
+              "delta": -1
             },
             {
               "rank": 5,
               "name": "하리오 스위치 드리퍼",
-              "index": 18.1,
+              "index": 17.9,
               "delta": 0
             },
             {
               "rank": 6,
-              "name": "고노 드리퍼",
-              "index": 8.5,
-              "delta": 0
+              "name": "케맥스 드리퍼",
+              "index": 8.9,
+              "delta": 2
             },
             {
               "rank": 7,
-              "name": "하리오 V60 드리퍼",
-              "index": 7.6,
-              "delta": 0
+              "name": "고노 드리퍼",
+              "index": 8.3,
+              "delta": -1
             },
             {
               "rank": 8,
-              "name": "케맥스 드리퍼",
-              "index": 7.1,
-              "delta": 0
+              "name": "하리오 V60 드리퍼",
+              "index": 8,
+              "delta": -1
             },
             {
               "rank": 9,
               "name": "칼리타 웨이브 드리퍼",
-              "index": 6.8,
+              "index": 7.7,
               "delta": 0
             },
             {
@@ -5336,43 +5336,43 @@
             {
               "rank": 2,
               "name": "오리가미 드리퍼",
-              "index": 52.4,
+              "index": 52.5,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "블루보틀 드리퍼",
-              "index": 30.7,
+              "index": 31,
               "delta": 0
             },
             {
               "rank": 4,
               "name": "클레버 드리퍼",
-              "index": 29.7,
+              "index": 28.8,
               "delta": 0
             },
             {
               "rank": 5,
               "name": "하리오 스위치 드리퍼",
-              "index": 11.6,
+              "index": 11.8,
               "delta": 0
             },
             {
               "rank": 6,
               "name": "고노 드리퍼",
-              "index": 9.8,
+              "index": 9.7,
               "delta": 0
             },
             {
               "rank": 7,
               "name": "하리오 V60 드리퍼",
-              "index": 9.2,
+              "index": 9.1,
               "delta": 0
             },
             {
               "rank": 8,
               "name": "칼리타 웨이브 드리퍼",
-              "index": 8.5,
+              "index": 8.4,
               "delta": 0
             },
             {
@@ -5394,7 +5394,7 @@
             {
               "rank": 1,
               "name": "오리가미 드리퍼",
-              "index": 53.1,
+              "index": 53.2,
               "delta": 0
             },
             {
@@ -5994,7 +5994,7 @@
             {
               "rank": 2,
               "name": "Russell Hobbs",
-              "index": 32.4,
+              "index": 56.3,
               "delta": 0
             },
             {
@@ -6058,13 +6058,13 @@
             {
               "rank": 2,
               "name": "Braun",
-              "index": 81.1,
+              "index": 79.1,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "Russell Hobbs",
-              "index": 28.6,
+              "index": 28.2,
               "delta": 0
             },
             {
@@ -6122,13 +6122,13 @@
             {
               "rank": 2,
               "name": "Braun",
-              "index": 75.3,
+              "index": 75,
               "delta": 0
             },
             {
               "rank": 3,
               "name": "Russell Hobbs",
-              "index": 26,
+              "index": 26.4,
               "delta": 0
             },
             {

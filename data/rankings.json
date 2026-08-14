@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T06:04:36.897Z",
+  "generatedAt": "2026-08-14T11:31:59.995Z",
   "categories": {
     "green-bean-specialty": {
       "title": "생두 · 스페셜티",
@@ -535,7 +535,7 @@
               "rank": 1,
               "name": "모모스커피 원두",
               "index": 100,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 2,
@@ -547,7 +547,7 @@
               "rank": 3,
               "name": "테라로사 원두",
               "index": 98.4,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 4,
@@ -565,31 +565,31 @@
               "rank": 6,
               "name": "앤트러사이트 원두",
               "index": 18.2,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "스타벅스 리저브 원두",
               "index": 15.2,
-              "delta": 3
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "프릳츠 커피 원두",
               "index": 4,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "센터커피 원두",
               "index": 0,
-              "delta": -3
+              "delta": 0
             },
             {
               "rank": 10,
               "name": "리사르커피 원두",
               "index": 0,
-              "delta": -1
+              "delta": 0
             }
           ]
         },
@@ -611,13 +611,13 @@
               "rank": 3,
               "name": "나무사이로 원두",
               "index": 68.4,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "블루보틀 원두",
               "index": 67.9,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -675,13 +675,13 @@
               "rank": 3,
               "name": "블루보틀 원두",
               "index": 56,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "나무사이로 원두",
               "index": 47.7,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -1071,13 +1071,13 @@
               "rank": 3,
               "name": "디카페인 커피",
               "index": 75.3,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "더치커피",
               "index": 61.7,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -1327,7 +1327,7 @@
               "rank": 2,
               "name": "커피 과학",
               "index": 94.4,
-              "delta": 3
+              "delta": 0
             },
             {
               "rank": 3,
@@ -1345,13 +1345,13 @@
               "rank": 5,
               "name": "스페셜티 커피 대백과",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "커피 아틀라스",
               "index": 0,
-              "delta": -4
+              "delta": 0
             },
             {
               "rank": 7,
@@ -2149,13 +2149,13 @@
               "rank": 8,
               "name": "던킨",
               "index": 17.5,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "할리스",
               "index": 14.2,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 10,
@@ -2631,7 +2631,7 @@
               "rank": 1,
               "name": "전주연",
               "index": 100,
-              "delta": 3
+              "delta": 0
             },
             {
               "rank": 2,
@@ -2643,31 +2643,31 @@
               "rank": 3,
               "name": "임정환",
               "index": 79.5,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "신창호",
               "index": 16.1,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "방현영",
               "index": 3.6,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "서필훈",
               "index": 3.1,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "박이추",
               "index": 1.8,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 8,
@@ -2695,13 +2695,13 @@
               "rank": 3,
               "name": "전주연",
               "index": 22.3,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "신창호",
               "index": 20,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -2713,19 +2713,19 @@
               "rank": 6,
               "name": "서필훈",
               "index": 3.1,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "박이추",
               "index": 1,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "김사홍",
               "index": 0.2,
-              "delta": -1
+              "delta": 0
             }
           ]
         },
@@ -2747,13 +2747,13 @@
               "rank": 3,
               "name": "전주연",
               "index": 18,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "신창호",
               "index": 17.8,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -4941,25 +4941,25 @@
               "rank": 1,
               "name": "Saeco",
               "index": 100,
-              "delta": 8
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Smeg",
               "index": 100,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Nespresso",
               "index": 42.9,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Jura",
               "index": 25,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -4989,7 +4989,7 @@
               "rank": 9,
               "name": "Gaggia",
               "index": 0,
-              "delta": -5
+              "delta": 0
             },
             {
               "rank": 10,
@@ -5233,7 +5233,7 @@
               "rank": 6,
               "name": "고노 드리퍼",
               "index": 10.7,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 7,
@@ -5245,7 +5245,7 @@
               "rank": 8,
               "name": "하리오 V60 드리퍼",
               "index": 5,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 9,
@@ -5297,13 +5297,13 @@
               "rank": 6,
               "name": "칼리타 웨이브 드리퍼",
               "index": 5.1,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "하리오 V60 드리퍼",
               "index": 5,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
@@ -6053,31 +6053,31 @@
               "rank": 1,
               "name": "Braun",
               "index": 78.7,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Russell Hobbs",
               "index": 29.2,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Technivorm Moccamaster",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Bonavita BV1900",
               "index": 0,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "OXO Brew",
               "index": 0,
-              "delta": -4
+              "delta": 0
             },
             {
               "rank": 6,

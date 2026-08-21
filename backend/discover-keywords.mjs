@@ -84,7 +84,12 @@ function parseVolume(v) {
 }
 
 async function fetchRelatedKeywords(seedKeywords) {
-  const qs = `?hintKeywords=${encodeURIComponent(seedKeywords.join(','))}&showDetail=1`;
+  // The SearchAd keyword-tool API rejects any hintKeywords value containing
+  // whitespace (400 error) — strip it defensively even though today's
+  // SEED_GROUPS happen to be space-free, so this doesn't silently break if
+  // someone adds a multi-word seed later.
+  const hints = seedKeywords.map(k => String(k).replace(/\s+/g, ''));
+  const qs = `?hintKeywords=${encodeURIComponent(hints.join(','))}&showDetail=1`;
   const res = await fetch(AD_BASE_URL + AD_URI + qs, { headers: adAuthHeaders('GET', AD_URI) });
   if (!res.ok) {
     const text = await res.text();

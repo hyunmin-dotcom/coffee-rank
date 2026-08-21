@@ -187,13 +187,17 @@ function parseVolume(v) {
   return Number.isFinite(n) ? n : null;
 }
 
-// Naver strips spaces when matching hint keywords against relKeyword, so we
-// normalize the same way when matching results back to our item names.
+// The SearchAd keyword-tool API rejects any hintKeywords value that
+// contains whitespace (400 "hintKeywords 파라미터가 유효하지 않습니다" —
+// and one bad entry poisons the WHOLE comma-joined group, not just itself).
+// We strip spaces before sending, and use the same stripped form to match
+// results back to our item names, since relKeyword comes back space-free too.
 function normalizeKeyword(s) { return String(s).replace(/\s+/g, '').toUpperCase(); }
 
 async function fetchVolumeGroup(names) {
   const uri = '/keywordstool';
-  const qs = `?hintKeywords=${encodeURIComponent(names.join(','))}&showDetail=1`;
+  const hints = names.map(n => String(n).replace(/\s+/g, ''));
+  const qs = `?hintKeywords=${encodeURIComponent(hints.join(','))}&showDetail=1`;
   const res = await fetch('https://api.naver.com' + uri + qs, { headers: adAuthHeaders('GET', uri) });
   if (!res.ok) {
     const text = await res.text();

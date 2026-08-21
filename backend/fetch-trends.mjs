@@ -2,12 +2,21 @@
 // Fetches search-volume trend data from the Naver DataLab Search Trend API
 // for every category/item on the COFFEE RANK site, for four time windows
 // (daily / weekly / monthly / yearly), ranks each category per window, and
-// writes the result to data/rankings.json.
+// writes the result to data/rankings.json. Also fetches an absolute monthly
+// search-VOLUME figure per item (once, not per window) from the Naver
+// SearchAd keyword-tool API, so the frontend can show both the relative
+// "검색 지수" and an actual "검색량" number side by side.
 //
-// Requires Node.js 18+ (built-in fetch) and two env vars:
+// Requires Node.js 18+ (built-in fetch) and, at minimum, two env vars:
 //   NAVER_CLIENT_ID
 //   NAVER_CLIENT_SECRET
 // (issued from https://developers.naver.com/apps -> "검색어트렌드" API)
+//
+// Optionally, for the "검색량" column, also set (same credentials already
+// used by backend/discover-keywords.mjs):
+//   NAVER_AD_API_KEY, NAVER_AD_SECRET_KEY, NAVER_AD_CUSTOMER_ID
+// If these three are missing, volume fetching is skipped gracefully (rows
+// simply omit `volume`) — the DataLab ranking logic still runs normally.
 //
 // Naver DataLab notes:
 //   - Data has roughly a 1-day lag; there is no true minute-by-minute feed.
@@ -19,13 +28,21 @@
 
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 
 const CLIENT_ID = process.env.NAVER_CLIENT_ID;
 const CLIENT_SECRET = process.env.NAVER_CLIENT_SECRET;
+const AD_API_KEY = process.env.NAVER_AD_API_KEY;
+const AD_SECRET_KEY = process.env.NAVER_AD_SECRET_KEY;
+const AD_CUSTOMER_ID = process.env.NAVER_AD_CUSTOMER_ID;
+const VOLUME_ENABLED = !!(AD_API_KEY && AD_SECRET_KEY && AD_CUSTOMER_ID);
 
 if (!CLIENT_ID || !CLIENT_SECRET) {
   console.error('Missing NAVER_CLIENT_ID / NAVER_CLIENT_SECRET env vars.');
   process.exit(1);
+}
+if (!VOLUME_ENABLED) {
+  console.warn('NAVER_AD_API_KEY / NAVER_AD_SECRET_KEY / NAVER_AD_CUSTOMER_ID not set — skipping 검색량 (volume) lookup, rankings will not include it.');
 }
 
 const CATS = {
@@ -142,6 +159,73 @@ function chunk(arr, size) {
   return out;
 }
 
+// ---------- 검색량 (absolute monthly volume) via Naver SearchAd keyword tool ----------
+// Same auth scheme as backend/discover-keywords.mjs. This is a single snapshot
+// (not windowed by day/week/month/year), so it's fetched once per item list
+// per run and reused across all four period tabs.
+
+function adSign(timestamp, method, uri) {
+  const message = `${timestamp}.${method}.${uri}`;
+  return crypto.createHmac('sha256', AD_SECRET_KEY).update(message).digest('base64');
+}
+
+function adAuthHeaders(method, uri) {
+  const timestamp = Date.now().toString();
+  return {
+    'X-Timestamp': timestamp,
+    'X-API-KEY': AD_API_KEY,
+    'X-Customer': AD_CUSTOMER_ID,
+    'X-Signature': adSign(timestamp, method, uri),
+    'Content-Type': 'application/json; charset=UTF-8',
+  };
+}
+
+function parseVolume(v) {
+  if (typeof v === 'number') return v;
+  if (typeof v === 'string' && v.includes('<')) return 5; // "< 10"
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+}
+
+// Naver strips spaces when matching hint keywords against relKeyword, so we
+// normalize the same way when matching results back to our item names.
+function normalizeKeyword(s) { return String(s).replace(/\s+/g, '').toUpperCase(); }
+
+async function fetchVolumeGroup(names) {
+  const uri = '/keywordstool';
+  const qs = `?hintKeywords=${encodeURIComponent(names.join(','))}&showDetail=1`;
+  const res = await fetch('https://api.naver.com' + uri + qs, { headers: adAuthHeaders('GET', uri) });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Naver SearchAd API error ${res.status}: ${text}`);
+  }
+  const data = await res.json();
+  return data.keywordList || [];
+}
+
+async function fetchVolumesForItems(items) {
+  const volumeMap = {};
+  if (!VOLUME_ENABLED) return volumeMap;
+  const wanted = new Map(items.map(name => [normalizeKeyword(name), name]));
+  for (const group of chunk(items, 5)) {
+    try {
+      const list = await fetchVolumeGroup(group);
+      for (const kw of list) {
+        const key = normalizeKeyword(kw.relKeyword);
+        if (!wanted.has(key)) continue; // only keep exact matches to our own items, not extra related terms
+        const pc = parseVolume(kw.monthlyPcQcCnt);
+        const mobile = parseVolume(kw.monthlyMobileQcCnt);
+        if (pc === null && mobile === null) continue;
+        volumeMap[wanted.get(key)] = (pc || 0) + (mobile || 0);
+      }
+    } catch (e) {
+      console.error('volume fetch failed for group', group, e.message);
+    }
+    await new Promise(r => setTimeout(r, 350));
+  }
+  return volumeMap;
+}
+
 async function fetchGroup(names, startDate, endDate) {
   const body = {
     startDate, endDate, timeUnit: 'date',
@@ -163,7 +247,7 @@ async function fetchGroup(names, startDate, endDate) {
   return res.json();
 }
 
-async function rankForWindow(items, days) {
+async function rankForWindow(items, days, volumeMap) {
   const end = new Date();
   const start = new Date();
   start.setDate(start.getDate() - days);
@@ -180,7 +264,11 @@ async function rankForWindow(items, days) {
   }
   return Object.entries(scored)
     .sort((a, b) => b[1] - a[1])
-    .map(([name, index], i) => ({ rank: i + 1, name, index: Number(index.toFixed(1)) }));
+    .map(([name, index], i) => {
+      const row = { rank: i + 1, name, index: Number(index.toFixed(1)) };
+      if (Object.prototype.hasOwnProperty.call(volumeMap, name)) row.volume = volumeMap[name];
+      return row;
+    });
 }
 
 function loadPrevious() {
@@ -206,9 +294,15 @@ async function main() {
   const out = { generatedAt: new Date().toISOString(), categories: {} };
   for (const [key, cat] of Object.entries(CATS)) {
     out.categories[key] = { title: cat.title, sub: cat.sub, periods: {} };
+    let volumeMap = {};
+    try {
+      volumeMap = await fetchVolumesForItems(cat.items);
+    } catch (e) {
+      console.error('volume lookup failed for category', key, e.message);
+    }
     for (const [periodName, { days }] of Object.entries(PERIODS)) {
       try {
-        const rows = await rankForWindow(cat.items, days);
+        const rows = await rankForWindow(cat.items, days, volumeMap);
         const prevRows = previous?.categories?.[key]?.periods?.[periodName]?.rows;
         out.categories[key].periods[periodName] = { rows: withDelta(rows, prevRows) };
         console.log('ok:', key, periodName);

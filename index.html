@@ -219,6 +219,40 @@
   .bar-track{ height:2px; background:rgba(255,255,255,0.06); position:relative; }
   .bar-fill{ height:100%; background:linear-gradient(90deg, var(--gold), var(--gold-bright)); }
   td.index{ text-align:right; font-family:var(--serif-italic); font-style:italic; font-weight:600; font-size:16px; color:var(--ink); width:64px; }
+  td.volume{ text-align:right; font-family:var(--sans); font-weight:400; font-size:13px; color:var(--ink-dim); width:90px; white-space:nowrap; }
+  td.volume.na{ color:var(--muted); font-style:italic; }
+
+  /* ---------- header tooltips ---------- */
+  .th-tip-wrap{ position:relative; display:inline-block; margin-left:5px; }
+  .th-tip-icon{ cursor:help; color:var(--gold); font-size:12px; text-transform:none; }
+  .th-tip-box{
+    position:absolute; bottom:150%; left:50%; transform:translateX(-50%);
+    width:230px; background:#0B1712; border:1px solid var(--line-strong); color:var(--ink-dim);
+    font-size:11.5px; line-height:1.55; font-weight:400; letter-spacing:0.01em; text-transform:none;
+    padding:11px 13px; border-radius:3px; text-align:left;
+    opacity:0; visibility:hidden; pointer-events:none; transition:opacity .15s ease; z-index:30;
+    box-shadow:0 8px 24px rgba(0,0,0,0.45);
+  }
+  .th-tip-box b{ color:var(--gold-bright); font-weight:600; }
+  .th-tip-box::after{
+    content:""; position:absolute; top:100%; left:50%; transform:translateX(-50%);
+    border:5px solid transparent; border-top-color:#0B1712;
+  }
+  .th-tip-wrap:hover .th-tip-box, .th-tip-wrap:focus-within .th-tip-box{ opacity:1; visibility:visible; }
+  th.num .th-tip-wrap{ margin-left:4px; }
+
+  /* ---------- empty state ---------- */
+  .empty-row td{ padding:44px 18px; text-align:center; font-family:var(--serif-italic); font-style:italic; font-size:14px; color:var(--muted); }
+
+  /* ---------- load more ---------- */
+  .loadmore-wrap{ text-align:center; padding:18px 0 8px; }
+  .loadmore-btn{
+    font-family:var(--sans); font-weight:400; font-size:11.5px; letter-spacing:0.1em; text-transform:uppercase;
+    padding:9px 26px; border-radius:2px; border:1px solid var(--line-strong); background:transparent;
+    color:var(--ink-dim); cursor:pointer; transition:all .18s ease;
+  }
+  .loadmore-btn:hover{ border-color:var(--gold); color:var(--gold-bright); background:rgba(199,162,90,0.06); }
+  .loadmore-btn:disabled{ opacity:0.4; cursor:default; border-color:var(--line); color:var(--muted); }
 
   footer{
     padding:34px 24px 56px; text-align:center; border-top:1px solid var(--line); margin-top:10px;
@@ -377,12 +411,16 @@
             <th>순위</th>
             <th>등락</th>
             <th>상품명</th>
-            <th>검색 지수</th>
+            <th>검색 지수<span class="th-tip-wrap"><span class="th-tip-icon">ⓘ</span><span class="th-tip-box">네이버 검색 트렌드 API 응답값입니다. 한 번의 요청(최대 5개 키워드) 안에서 가장 많이 검색된 항목을 100으로 두고 나머지를 비율로 환산한 <b>상대 지수</b>이며, 절대 검색량이 아닙니다. 서로 다른 카테고리끼리는 직접 비교할 수 없습니다.</span></span></th>
             <th class="num">지수값</th>
+            <th class="num">검색량<span class="th-tip-wrap"><span class="th-tip-icon">ⓘ</span><span class="th-tip-box">네이버 검색광고 키워드도구 기준, 최근 1개월 PC+모바일 검색수 합계(근사치)입니다. 검색 지수와 달리 카테고리 간에도 서로 비교 가능한 절대값이지만, 네이버가 제공하는 집계 특성상 실제 검색량과 오차가 있을 수 있습니다.</span></span></th>
           </tr>
         </thead>
         <tbody id="rankBody"></tbody>
       </table>
+      <div class="loadmore-wrap" id="loadMoreWrap">
+        <button class="loadmore-btn" id="loadMoreBtn" type="button">더 보기</button>
+      </div>
     </div>
   </main>
 
@@ -402,7 +440,7 @@
   }
   tick(); setInterval(tick, 1000);
 
-  // ---------- Seeded PRNG for consistent mock rankings ----------
+  // ---------- Seeded PRNG (used only to shuffle the ticker's display order) ----------
   function seededRandom(seed){
     let s = seed % 2147483647;
     if (s <= 0) s += 2147483646;
@@ -410,11 +448,6 @@
       s = (s * 16807) % 2147483647;
       return (s - 1) / 2147483646;
     };
-  }
-  function hashStr(str){
-    let h = 0;
-    for(let i=0;i<str.length;i++){ h = (Math.imul(31,h) + str.charCodeAt(i)) | 0; }
-    return Math.abs(h) || 1;
   }
 
   // ---------- Category data ----------
@@ -524,42 +557,28 @@
   let currentCat = 'green-bean-specialty';
   let currentPeriod = 'daily';
   const PERIOD_LABEL = { daily:'일간 누적 검색 기준', weekly:'주간(7일) 누적 검색 기준', monthly:'월간(30일) 누적 검색 기준', yearly:'연간(1년) 누적 검색 기준' };
-  const PERIOD_SEED = { daily:1, weekly:2, monthly:3, yearly:4 };
 
-  // ---------- Real data (fetched from data/rankings.json) with mock fallback ----------
+  // ---------- Pagination ----------
+  const PAGE_STEP = 10;
+  const MAX_VISIBLE = 100;
+  let currentRows = [];
+  let visibleCount = PAGE_STEP;
+
+  // ---------- Real data (fetched from data/rankings.json), real data only — no dummy fallback ----------
   let REMOTE = null;
-  let usingMock = true;
+  let dataLoaded = false; // becomes true once the first fetch attempt (success or fail) completes
 
-  function buildRankingMock(catKey, period){
-    const cat = CATS[catKey];
-    const seed = hashStr(catKey + '-' + period) + PERIOD_SEED[period]*9973;
-    const rnd = seededRandom(seed);
-    let vals = cat.items.map((name) => ({ name, base: 30 + rnd()*70 }));
-    vals.sort((a,b)=>b.base-a.base);
-    const rndPrev = seededRandom(seed + 555);
-    let prevOrder = cat.items.map((name)=>({name, base: 30 + rndPrev()*70}));
-    prevOrder.sort((a,b)=>b.base-a.base);
-    const prevRankMap = {};
-    prevOrder.forEach((v,i)=> prevRankMap[v.name] = i+1);
-    return vals.map((v,i)=>{
-      const rank = i+1;
-      const prevRank = prevRankMap[v.name] ?? rank;
-      const delta = prevRank - rank;
-      return { rank, name: v.name, index: v.base.toFixed(1), delta };
-    });
-  }
-
+  // Returns [] when no real data is available for this category/period yet —
+  // callers must handle the empty-list ("데이터 없음") case explicitly.
   function buildRanking(catKey, period){
     // remote schema: categories[catKey].periods[period].rows  (preferred)
     // falls back to categories[catKey].rows (single snapshot, same for all periods)
     const remoteCat = REMOTE?.categories?.[catKey];
     const remoteRows = remoteCat?.periods?.[period]?.rows ?? remoteCat?.rows;
     if (remoteRows && remoteRows.length){
-      usingMock = false;
       return remoteRows.map(r => ({ ...r, index: Number(r.index).toFixed(1) }));
     }
-    usingMock = true;
-    return buildRankingMock(catKey, period);
+    return [];
   }
 
   async function loadRemoteData(){
@@ -568,11 +587,11 @@
     try{
       const res = await fetch('./data/rankings.json', { cache: 'no-cache' });
       if(res.ok) rankings = await res.json();
-    }catch(e){ /* fall through to mock */ }
+    }catch(e){ /* leaves rankings null -> empty-state below */ }
     try{
       const res2 = await fetch('./data/discovered.json', { cache: 'no-cache' });
       if(res2.ok) discovered = await res2.json();
-    }catch(e){ /* the discovered-trending chip will fall back to mock on its own */ }
+    }catch(e){ /* the discovered-trending chip will just show "데이터 없음" on its own */ }
 
     if (rankings){
       REMOTE = rankings;
@@ -587,30 +606,60 @@
     } else {
       REMOTE = null;
     }
-    renderBoard();
+    dataLoaded = true;
+    refreshBoard();
     renderTicker();
+  }
+
+  // Full recompute: pulls the row set for the current category/period and
+  // resets pagination back to the top 10. Call this on category/period switch
+  // or whenever REMOTE data changes.
+  function refreshBoard(){
+    currentRows = buildRanking(currentCat, currentPeriod);
+    visibleCount = PAGE_STEP;
+    renderBoard();
+  }
+
+  function formatVolume(v){
+    if (v === undefined || v === null) return { text: '—', na: true };
+    return { text: Number(v).toLocaleString('ko-KR'), na: false };
   }
 
   function renderBoard(){
     const cat = CATS[currentCat];
     document.getElementById('boardTitle').textContent = cat.title;
-    const rows = buildRanking(currentCat, currentPeriod);
-    if(usingMock){
-      document.getElementById('boardSub').textContent = `데모 데이터 · ${PERIOD_LABEL[currentPeriod]}`;
-      document.getElementById('sourceNote').textContent = '네이버 검색 트렌드 누적 검색량을 기준으로 산출할 예정인 상대 지수입니다 (지금은 데모)';
-    } else {
-      const t = REMOTE?.generatedAt ? new Date(REMOTE.generatedAt).toLocaleString('ko-KR') : '';
-      document.getElementById('boardSub').textContent = `${PERIOD_LABEL[currentPeriod]} · 데이터 갱신 ${t}`;
-      document.getElementById('sourceNote').textContent = '네이버 검색 트렌드 누적 검색량을 기준으로 산출한 상대 지수입니다';
-    }
-    const maxIdx = Math.max(...rows.map(r=>parseFloat(r.index)));
+    const rows = currentRows;
     const body = document.getElementById('rankBody');
-    body.innerHTML = rows.map(r=>{
+    const loadMoreWrap = document.getElementById('loadMoreWrap');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+
+    if (!rows.length){
+      if (!dataLoaded){
+        document.getElementById('boardSub').textContent = `불러오는 중 · ${PERIOD_LABEL[currentPeriod]}`;
+        document.getElementById('sourceNote').textContent = '실 데이터를 불러오는 중입니다…';
+        body.innerHTML = `<tr class="empty-row"><td colspan="6">데이터를 불러오는 중입니다…</td></tr>`;
+      } else {
+        document.getElementById('boardSub').textContent = `데이터 없음 · ${PERIOD_LABEL[currentPeriod]}`;
+        document.getElementById('sourceNote').textContent = '아직 이 카테고리·기간의 실 데이터가 수집되지 않았습니다. 다음 자동 갱신 이후 다시 확인해 주세요.';
+        body.innerHTML = `<tr class="empty-row"><td colspan="6">표시할 데이터가 없습니다</td></tr>`;
+      }
+      loadMoreWrap.style.display = 'none';
+      return;
+    }
+
+    const t = REMOTE?.generatedAt ? new Date(REMOTE.generatedAt).toLocaleString('ko-KR') : '';
+    document.getElementById('boardSub').textContent = `${PERIOD_LABEL[currentPeriod]} · 데이터 갱신 ${t}`;
+    document.getElementById('sourceNote').textContent = '네이버 검색 트렌드 누적 검색량을 기준으로 산출한 상대 지수입니다';
+
+    const shown = rows.slice(0, visibleCount);
+    const maxIdx = Math.max(...shown.map(r=>parseFloat(r.index)));
+    body.innerHTML = shown.map(r=>{
       let deltaHtml, deltaClass;
       if(r.delta > 0){ deltaClass='up'; deltaHtml = '▲ ' + r.delta; }
       else if(r.delta < 0){ deltaClass='down'; deltaHtml = '▼ ' + Math.abs(r.delta); }
       else { deltaClass='flat'; deltaHtml = '−'; }
       const pct = (parseFloat(r.index)/maxIdx*100).toFixed(0);
+      const vol = formatVolume(r.volume);
       const rankCell = r.rank === 1
         ? `<div class="medallion-wrap"><svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#C7A25A" stroke-width="1.1"><path d="M8 12 Q4 20 8 28 Q10 30 13 29" opacity="0.8"/><path d="M6 14 Q3 20 6 26" opacity="0.5"/><path d="M32 12 Q36 20 32 28 Q30 30 27 29" opacity="0.8"/><path d="M34 14 Q37 20 34 26" opacity="0.5"/></g></svg><div class="medallion">${r.rank}</div></div>`
         : String(r.rank).padStart(2,'0');
@@ -620,9 +669,33 @@
         <td class="name"><a class="name-link" href="https://search.naver.com/search.naver?query=${encodeURIComponent(searchQueryFor(currentCat, r.name))}" target="_blank" rel="noopener noreferrer">${r.name}</a></td>
         <td class="bar-cell"><div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div></td>
         <td class="index">${r.index}</td>
+        <td class="volume${vol.na ? ' na' : ''}">${vol.text}</td>
       </tr>`;
     }).join('');
+
+    const cap = Math.min(rows.length, MAX_VISIBLE);
+    if (visibleCount < cap){
+      loadMoreWrap.style.display = '';
+      loadMoreBtn.disabled = false;
+      loadMoreBtn.textContent = `더 보기 (${shown.length} / ${cap})`;
+    } else if (rows.length > PAGE_STEP) {
+      // fully expanded — keep the wrap visible with a disabled state so the
+      // "n / n" count stays legible instead of the button just vanishing
+      loadMoreWrap.style.display = '';
+      loadMoreBtn.disabled = true;
+      loadMoreBtn.textContent = rows.length > MAX_VISIBLE
+        ? `전체 ${rows.length}개 중 상위 ${MAX_VISIBLE}개 표시 중`
+        : `전체 ${cap}개 표시 중`;
+    } else {
+      loadMoreWrap.style.display = 'none';
+    }
   }
+
+  document.getElementById('loadMoreBtn').addEventListener('click', ()=>{
+    const cap = Math.min(currentRows.length, MAX_VISIBLE);
+    visibleCount = Math.min(visibleCount + PAGE_STEP, cap);
+    renderBoard();
+  });
 
   // Some category names are too generic on their own (e.g. "서버", "포트" also
   // mean "server"/"port" outside coffee), so we prefix the Naver search query
@@ -659,7 +732,7 @@
     document.querySelectorAll('#periodTabs button').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     currentPeriod = btn.dataset.period;
-    renderBoard();
+    refreshBoard();
     renderTicker();
   });
 
@@ -669,10 +742,10 @@
     document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
     chip.classList.add('active');
     currentCat = chip.dataset.cat;
-    renderBoard();
+    refreshBoard();
   });
 
-  renderBoard();
+  refreshBoard();
   renderTicker();
   loadRemoteData();
   setInterval(loadRemoteData, 5*60*1000);

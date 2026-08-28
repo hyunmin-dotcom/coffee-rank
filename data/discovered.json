@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T11:45:53.822Z",
+  "generatedAt": "2026-08-28T01:35:39.043Z",
   "category": {
     "title": "인기검색어 · 자동발견",
     "sub": "AUTO-DISCOVERED (SearchAd 발견 + DataLab 기간별 트렌드)",
@@ -26,15 +26,15 @@
           },
           {
             "rank": 4,
-            "name": "전동그라인더",
+            "name": "디카페인커피",
             "index": 100,
-            "delta": 0
+            "delta": 12
           },
           {
             "rank": 5,
-            "name": "원두커피",
+            "name": "캡슐커피머신",
             "index": 100,
-            "delta": 0
+            "delta": 6
           },
           {
             "rank": 6,
@@ -50,141 +50,141 @@
           },
           {
             "rank": 8,
-            "name": "스타벅스커피",
+            "name": "커피캡슐",
             "index": 100,
-            "delta": 0
+            "delta": 14
           },
           {
             "rank": 9,
-            "name": "전자동커피머신",
-            "index": 98.9,
-            "delta": 3
+            "name": "에스프레소머신",
+            "index": 99.6,
+            "delta": 0
           },
           {
             "rank": 10,
-            "name": "드립커피",
-            "index": 93.5,
-            "delta": 4
-          },
-          {
-            "rank": 11,
-            "name": "캡슐커피머신",
-            "index": 91.6,
-            "delta": 2
-          },
-          {
-            "rank": 12,
-            "name": "아라비카커피",
-            "index": 88.3,
-            "delta": 11
-          },
-          {
-            "rank": 13,
             "name": "포션커피",
-            "index": 87.2,
-            "delta": 5
-          },
-          {
-            "rank": 14,
-            "name": "맥심믹스커피",
-            "index": 83.1,
-            "delta": -4
-          },
-          {
-            "rank": 15,
-            "name": "캡슐커피",
-            "index": 82.7,
-            "delta": -4
-          },
-          {
-            "rank": 16,
-            "name": "디카페인커피",
-            "index": 81.9,
-            "delta": -7
-          },
-          {
-            "rank": 17,
-            "name": "커피그라인더",
-            "index": 81.2,
-            "delta": -2
-          },
-          {
-            "rank": 18,
-            "name": "일리커피머신",
-            "index": 80.3,
-            "delta": 1
-          },
-          {
-            "rank": 19,
-            "name": "그라인더",
-            "index": 76.5,
-            "delta": 1
-          },
-          {
-            "rank": 20,
-            "name": "커스텀커피",
-            "index": 75.8,
-            "delta": 5
-          },
-          {
-            "rank": 21,
-            "name": "라떼",
-            "index": 71.9,
-            "delta": -5
-          },
-          {
-            "rank": 22,
-            "name": "커피캡슐",
-            "index": 69.2,
-            "delta": -5
-          },
-          {
-            "rank": 23,
-            "name": "대구카페",
-            "index": 68.1,
+            "index": 98.2,
             "delta": 3
           },
           {
-            "rank": 24,
+            "rank": 11,
+            "name": "원두커피",
+            "index": 98.2,
+            "delta": -6
+          },
+          {
+            "rank": 12,
+            "name": "라떼",
+            "index": 93.8,
+            "delta": 9
+          },
+          {
+            "rank": 13,
+            "name": "전자동커피머신",
+            "index": 93.2,
+            "delta": -4
+          },
+          {
+            "rank": 14,
             "name": "커피믹스",
-            "index": 65.1,
+            "index": 91.3,
+            "delta": 10
+          },
+          {
+            "rank": 15,
+            "name": "커피그라인더",
+            "index": 91.3,
+            "delta": 2
+          },
+          {
+            "rank": 16,
+            "name": "유라커피머신",
+            "index": 90.4,
+            "delta": 11
+          },
+          {
+            "rank": 17,
+            "name": "맥심믹스커피",
+            "index": 89.6,
             "delta": -3
           },
           {
-            "rank": 25,
-            "name": "커피맛집",
-            "index": 61,
-            "delta": -3
+            "rank": 18,
+            "name": "커피드리퍼",
+            "index": 88.4,
+            "delta": 12
           },
           {
-            "rank": 26,
-            "name": "바닐라라떼",
-            "index": 57.7,
+            "rank": 19,
+            "name": "에스프레소",
+            "index": 85.3,
+            "delta": 0
+          },
+          {
+            "rank": 20,
+            "name": "드립커피",
+            "index": 84.4,
+            "delta": -10
+          },
+          {
+            "rank": 21,
+            "name": "전동그라인더",
+            "index": 84,
+            "delta": -17
+          },
+          {
+            "rank": 22,
+            "name": "커스텀커피",
+            "index": 83.3,
             "delta": -2
           },
           {
+            "rank": 23,
+            "name": "그라인더",
+            "index": 83.2,
+            "delta": -4
+          },
+          {
+            "rank": 24,
+            "name": "캡슐커피",
+            "index": 82.3,
+            "delta": -9
+          },
+          {
+            "rank": 25,
+            "name": "일리커피머신",
+            "index": 81.5,
+            "delta": -7
+          },
+          {
+            "rank": 26,
+            "name": "스타벅스커피",
+            "index": 79.9,
+            "delta": -18
+          },
+          {
             "rank": 27,
-            "name": "유라커피머신",
-            "index": 56.2,
-            "delta": 0
+            "name": "아라비카커피",
+            "index": 78,
+            "delta": -15
           },
           {
             "rank": 28,
-            "name": "원두",
-            "index": 56,
-            "delta": 0
+            "name": "바닐라라떼",
+            "index": 74.1,
+            "delta": -2
           },
           {
             "rank": 29,
-            "name": "필립스커피머신",
-            "index": 54,
-            "delta": 1
+            "name": "커피맛집",
+            "index": 65,
+            "delta": -4
           },
           {
             "rank": 30,
-            "name": "커피드리퍼",
-            "index": 52.5,
-            "delta": 0
+            "name": "대구카페",
+            "index": 59.2,
+            "delta": -7
           }
         ]
       },
@@ -192,182 +192,182 @@
         "rows": [
           {
             "rank": 1,
-            "name": "바리스타자격증",
-            "index": 88.1,
-            "delta": 0
+            "name": "에스프레소머신",
+            "index": 90.9,
+            "delta": 28
           },
           {
             "rank": 2,
-            "name": "전동그라인더",
-            "index": 86.2,
-            "delta": 2
+            "name": "바리스타자격증",
+            "index": 87.1,
+            "delta": -1
           },
           {
             "rank": 3,
             "name": "디카페인원두",
-            "index": 86.2,
+            "index": 85.9,
             "delta": 0
           },
           {
             "rank": 4,
             "name": "드립커피",
-            "index": 85.6,
-            "delta": 1
+            "index": 84.8,
+            "delta": 0
           },
           {
             "rank": 5,
-            "name": "스타벅스커피",
-            "index": 82,
-            "delta": -3
+            "name": "디카페인커피",
+            "index": 80.7,
+            "delta": 3
           },
           {
             "rank": 6,
             "name": "전자동커피머신",
-            "index": 81.3,
-            "delta": 4
+            "index": 80.6,
+            "delta": 0
           },
           {
             "rank": 7,
             "name": "커피그라인더",
-            "index": 80.9,
-            "delta": 1
+            "index": 80,
+            "delta": 0
           },
           {
             "rank": 8,
-            "name": "디카페인커피",
-            "index": 80.4,
-            "delta": -1
+            "name": "포션커피",
+            "index": 77,
+            "delta": 1
           },
           {
             "rank": 9,
-            "name": "포션커피",
-            "index": 79.4,
-            "delta": -3
+            "name": "커피믹스",
+            "index": 76.8,
+            "delta": 12
           },
           {
             "rank": 10,
             "name": "캡슐커피",
-            "index": 76.9,
-            "delta": 1
+            "index": 76.3,
+            "delta": 0
           },
           {
             "rank": 11,
-            "name": "일리커피머신",
-            "index": 75.2,
-            "delta": 1
+            "name": "맥심믹스커피",
+            "index": 75.6,
+            "delta": 4
           },
           {
             "rank": 12,
-            "name": "캡슐커피머신",
-            "index": 74.6,
-            "delta": 2
+            "name": "일리커피머신",
+            "index": 74.8,
+            "delta": -1
           },
           {
             "rank": 13,
-            "name": "원두커피",
-            "index": 73.7,
-            "delta": 2
+            "name": "캡슐커피머신",
+            "index": 74.2,
+            "delta": -1
           },
           {
             "rank": 14,
-            "name": "아라비카커피",
-            "index": 73.3,
-            "delta": 3
+            "name": "라떼",
+            "index": 73.9,
+            "delta": 2
           },
           {
             "rank": 15,
-            "name": "맥심믹스커피",
-            "index": 71.4,
-            "delta": -6
+            "name": "원두커피",
+            "index": 73.2,
+            "delta": -2
           },
           {
             "rank": 16,
-            "name": "라떼",
-            "index": 68,
-            "delta": 0
+            "name": "아라비카커피",
+            "index": 73,
+            "delta": -2
           },
           {
             "rank": 17,
             "name": "커피캡슐",
-            "index": 64.9,
-            "delta": -4
+            "index": 69.8,
+            "delta": 0
           },
           {
             "rank": 18,
-            "name": "그라인더",
-            "index": 64.1,
-            "delta": 1
+            "name": "전동그라인더",
+            "index": 67.5,
+            "delta": -16
           },
           {
             "rank": 19,
             "name": "대구카페",
-            "index": 63.5,
-            "delta": 3
+            "index": 64.5,
+            "delta": 0
           },
           {
             "rank": 20,
-            "name": "커피맛집",
-            "index": 63,
-            "delta": 0
+            "name": "그라인더",
+            "index": 63.9,
+            "delta": -2
           },
           {
             "rank": 21,
-            "name": "커피믹스",
-            "index": 60.2,
-            "delta": 0
+            "name": "커피맛집",
+            "index": 63.6,
+            "delta": -1
           },
           {
             "rank": 22,
             "name": "바닐라라떼",
-            "index": 60.2,
-            "delta": -4
+            "index": 62.3,
+            "delta": 0
           },
           {
             "rank": 23,
             "name": "카페추천",
-            "index": 56.9,
+            "index": 58.3,
             "delta": 0
           },
           {
             "rank": 24,
             "name": "커피메이커",
-            "index": 54.8,
-            "delta": 1
+            "index": 57.1,
+            "delta": 0
           },
           {
             "rank": 25,
             "name": "하이오커피",
-            "index": 53.4,
-            "delta": -1
+            "index": 54,
+            "delta": 0
           },
           {
             "rank": 26,
             "name": "커피드리퍼",
-            "index": 37.8,
+            "index": 38.1,
             "delta": 0
           },
           {
             "rank": 27,
             "name": "유라커피머신",
-            "index": 36,
+            "index": 36.8,
             "delta": 0
           },
           {
             "rank": 28,
             "name": "에스프레소",
-            "index": 34.7,
+            "index": 34.4,
             "delta": 0
           },
           {
             "rank": 29,
-            "name": "에스프레소머신",
-            "index": 33.2,
-            "delta": 0
+            "name": "스타벅스커피",
+            "index": 32.2,
+            "delta": -24
           },
           {
             "rank": 30,
             "name": "커스텀커피",
-            "index": 31.1,
+            "index": 31.3,
             "delta": 0
           }
         ]
@@ -376,15 +376,15 @@
         "rows": [
           {
             "rank": 1,
-            "name": "전동그라인더",
-            "index": 82,
-            "delta": 0
+            "name": "에스프레소머신",
+            "index": 80.5,
+            "delta": 28
           },
           {
             "rank": 2,
-            "name": "스타벅스커피",
-            "index": 79.4,
-            "delta": 0
+            "name": "커피믹스",
+            "index": 79.7,
+            "delta": 18
           },
           {
             "rank": 3,
@@ -395,13 +395,13 @@
           {
             "rank": 4,
             "name": "커피그라인더",
-            "index": 76.7,
+            "index": 77.1,
             "delta": 0
           },
           {
             "rank": 5,
             "name": "드립커피",
-            "index": 75.7,
+            "index": 75.8,
             "delta": 0
           },
           {
@@ -413,91 +413,91 @@
           {
             "rank": 7,
             "name": "맥심믹스커피",
-            "index": 69.1,
+            "index": 68.3,
             "delta": 0
           },
           {
             "rank": 8,
             "name": "라떼",
-            "index": 64.9,
-            "delta": 1
+            "index": 64.7,
+            "delta": 0
           },
           {
             "rank": 9,
             "name": "커피캡슐",
-            "index": 64.3,
-            "delta": -1
+            "index": 64.5,
+            "delta": 0
           },
           {
             "rank": 10,
             "name": "바닐라라떼",
-            "index": 63.4,
+            "index": 62.7,
             "delta": 0
           },
           {
             "rank": 11,
-            "name": "일리커피머신",
-            "index": 53.1,
-            "delta": 0
+            "name": "전자동커피머신",
+            "index": 53,
+            "delta": 1
           },
           {
             "rank": 12,
-            "name": "전자동커피머신",
+            "name": "바리스타자격증",
             "index": 52.9,
-            "delta": 0
+            "delta": 1
           },
           {
             "rank": 13,
-            "name": "바리스타자격증",
-            "index": 52.8,
-            "delta": 0
+            "name": "일리커피머신",
+            "index": 52.9,
+            "delta": -2
           },
           {
             "rank": 14,
             "name": "디카페인원두",
-            "index": 52.4,
+            "index": 52.5,
             "delta": 0
           },
           {
             "rank": 15,
-            "name": "아라비카커피",
+            "name": "포션커피",
             "index": 51.5,
             "delta": 1
           },
           {
             "rank": 16,
-            "name": "포션커피",
-            "index": 51.4,
+            "name": "아라비카커피",
+            "index": 51.2,
             "delta": -1
           },
           {
             "rank": 17,
             "name": "대구카페",
-            "index": 49.9,
-            "delta": 1
+            "index": 49.7,
+            "delta": 0
           },
           {
             "rank": 18,
             "name": "카페추천",
-            "index": 49.7,
-            "delta": -1
+            "index": 49.2,
+            "delta": 0
           },
           {
             "rank": 19,
             "name": "그라인더",
-            "index": 44.2,
+            "index": 44.1,
             "delta": 0
           },
           {
             "rank": 20,
-            "name": "커피믹스",
-            "index": 42.5,
-            "delta": 0
+            "name": "전동그라인더",
+            "index": 43.8,
+            "delta": -19
           },
           {
             "rank": 21,
             "name": "원두커피",
-            "index": 39.8,
+            "index": 39.6,
             "delta": 0
           },
           {
@@ -515,25 +515,25 @@
           {
             "rank": 24,
             "name": "커피메이커",
-            "index": 35.8,
-            "delta": 1
+            "index": 36.2,
+            "delta": 0
           },
           {
             "rank": 25,
             "name": "커피맛집",
-            "index": 35.8,
-            "delta": -1
+            "index": 35.7,
+            "delta": 0
           },
           {
             "rank": 26,
             "name": "커피드리퍼",
-            "index": 34.3,
+            "index": 34.5,
             "delta": 0
           },
           {
             "rank": 27,
             "name": "에스프레소",
-            "index": 33.1,
+            "index": 33.2,
             "delta": 0
           },
           {
@@ -544,15 +544,15 @@
           },
           {
             "rank": 29,
-            "name": "에스프레소머신",
-            "index": 31.6,
-            "delta": 0
+            "name": "커스텀커피",
+            "index": 31.4,
+            "delta": 1
           },
           {
             "rank": 30,
-            "name": "커스텀커피",
-            "index": 31.3,
-            "delta": 0
+            "name": "스타벅스커피",
+            "index": 30.8,
+            "delta": -28
           }
         ]
       },
@@ -560,128 +560,128 @@
         "rows": [
           {
             "rank": 1,
-            "name": "스타벅스커피",
-            "index": 54.3,
-            "delta": 0
+            "name": "커피믹스",
+            "index": 57.2,
+            "delta": 6
           },
           {
             "rank": 2,
-            "name": "원두커피",
-            "index": 46.5,
+            "name": "에스프레소머신",
+            "index": 49.4,
             "delta": 0
           },
           {
             "rank": 3,
-            "name": "캡슐커피머신",
-            "index": 44.4,
-            "delta": 0
+            "name": "원두커피",
+            "index": 46.4,
+            "delta": -1
           },
           {
             "rank": 4,
-            "name": "커피그라인더",
-            "index": 44.2,
-            "delta": 0
+            "name": "캡슐커피머신",
+            "index": 44.4,
+            "delta": -1
           },
           {
             "rank": 5,
             "name": "라떼",
-            "index": 44.1,
+            "index": 41,
             "delta": 0
           },
           {
             "rank": 6,
-            "name": "드립커피",
-            "index": 42.7,
-            "delta": 0
+            "name": "커피그라인더",
+            "index": 41,
+            "delta": -2
           },
           {
             "rank": 7,
-            "name": "커피믹스",
-            "index": 42.6,
-            "delta": 0
+            "name": "드립커피",
+            "index": 39.7,
+            "delta": -1
           },
           {
             "rank": 8,
             "name": "디카페인커피",
-            "index": 39.8,
-            "delta": 0
-          },
-          {
-            "rank": 9,
-            "name": "커피캡슐",
-            "index": 38.9,
-            "delta": 0
-          },
-          {
-            "rank": 10,
-            "name": "전동그라인더",
-            "index": 38.7,
-            "delta": 0
-          },
-          {
-            "rank": 11,
-            "name": "일리커피머신",
             "index": 37,
             "delta": 0
           },
           {
-            "rank": 12,
+            "rank": 9,
+            "name": "일리커피머신",
+            "index": 36.9,
+            "delta": 2
+          },
+          {
+            "rank": 10,
             "name": "하이오커피",
-            "index": 36.8,
-            "delta": 0
+            "index": 36.7,
+            "delta": 2
+          },
+          {
+            "rank": 11,
+            "name": "커피캡슐",
+            "index": 36.2,
+            "delta": -2
+          },
+          {
+            "rank": 12,
+            "name": "바리스타자격증",
+            "index": 35.5,
+            "delta": 2
           },
           {
             "rank": 13,
             "name": "캡슐커피",
-            "index": 35.6,
+            "index": 33.1,
             "delta": 0
           },
           {
             "rank": 14,
-            "name": "바리스타자격증",
-            "index": 35.5,
-            "delta": 0
+            "name": "바닐라라떼",
+            "index": 31.9,
+            "delta": 1
           },
           {
             "rank": 15,
-            "name": "바닐라라떼",
-            "index": 34.3,
-            "delta": 0
+            "name": "커피맛집",
+            "index": 30.9,
+            "delta": 1
           },
           {
             "rank": 16,
-            "name": "커피맛집",
-            "index": 31,
-            "delta": 0
+            "name": "그라인더",
+            "index": 30.1,
+            "delta": 1
           },
           {
             "rank": 17,
-            "name": "그라인더",
-            "index": 30.1,
-            "delta": 0
+            "name": "커스텀커피",
+            "index": 29.5,
+            "delta": 1
           },
           {
             "rank": 18,
-            "name": "커스텀커피",
-            "index": 29.5,
-            "delta": 0
+            "name": "대구카페",
+            "index": 27.3,
+            "delta": 1
           },
           {
             "rank": 19,
-            "name": "대구카페",
-            "index": 27.3,
-            "delta": 0
+            "name": "전동그라인더",
+            "index": 26.7,
+            "delta": -9
           },
           {
             "rank": 20,
             "name": "커피원두",
-            "index": 26.5,
+            "index": 26.4,
             "delta": 0
           },
           {
             "rank": 21,
             "name": "커피메이커",
-            "index": 23.4,
+            "index": 23.3,
             "delta": 0
           },
           {
@@ -692,21 +692,21 @@
           },
           {
             "rank": 23,
-            "name": "맥심믹스커피",
-            "index": 21.4,
+            "name": "카페추천",
+            "index": 21.3,
             "delta": 1
           },
           {
             "rank": 24,
-            "name": "카페추천",
-            "index": 21.3,
-            "delta": -1
+            "name": "원두",
+            "index": 21.1,
+            "delta": 1
           },
           {
             "rank": 25,
-            "name": "원두",
-            "index": 21.1,
-            "delta": 0
+            "name": "맥심믹스커피",
+            "index": 20,
+            "delta": -2
           },
           {
             "rank": 26,

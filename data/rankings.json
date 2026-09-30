@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:19:07.240Z",
+  "generatedAt": "2026-09-30T15:40:57.816Z",
   "categories": {
     "green-bean-specialty": {
       "title": "생두 · 스페셜티",
@@ -86,14 +86,14 @@
               "name": "케냐 AA",
               "index": 79.2,
               "volume": 2420,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "파나마 게이샤",
               "index": 79.1,
               "volume": 2710,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
@@ -314,14 +314,14 @@
               "name": "콜롬비아 수프리모",
               "index": 100,
               "volume": 520,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "베트남 로부스타",
               "index": 53.3,
               "volume": 480,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
@@ -732,14 +732,14 @@
               "name": "앤트러사이트 원두",
               "index": 11.1,
               "volume": 250,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "센터커피 원두",
               "index": 10.5,
               "volume": 160,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -1168,14 +1168,14 @@
               "name": "남양 프렌치카페 카페믹스",
               "index": 0.6,
               "volume": 30,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "커피빈 드립백",
               "index": 0.6,
               "volume": 100,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
@@ -1375,14 +1375,14 @@
               "name": "아인슈페너",
               "index": 59.3,
               "volume": 17640,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "디카페인 커피",
               "index": 57.9,
               "volume": 14210,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
@@ -1410,14 +1410,14 @@
               "name": "흑당라떼",
               "index": 2,
               "volume": 630,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "피스타치오 라떼",
               "index": 1.7,
               "volume": 510,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -1824,14 +1824,14 @@
               "name": "탬퍼",
               "index": 100,
               "volume": 1910,
-              "delta": 4
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "샷글라스",
               "index": 100,
               "volume": 390,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 3,
@@ -1845,14 +1845,14 @@
               "name": "커피 온도계",
               "index": 69.2,
               "volume": 270,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "넉박스",
               "index": 61.3,
               "volume": 1650,
-              "delta": -4
+              "delta": 0
             },
             {
               "rank": 6,
@@ -1905,28 +1905,28 @@
               "name": "디스트리뷰터",
               "index": 63,
               "volume": 2200,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "샷글라스",
               "index": 62.6,
               "volume": 390,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "넉박스",
               "index": 53,
               "volume": 1650,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "커피 온도계",
               "index": 52.6,
               "volume": 270,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
@@ -2140,14 +2140,14 @@
               "name": "테라로사",
               "index": 42.4,
               "volume": 61270,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "나무사이로",
               "index": 41.8,
               "volume": 8450,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -2618,14 +2618,14 @@
               "name": "커피빈",
               "index": 9,
               "volume": 57590,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "할리스",
               "index": 8.7,
               "volume": 56460,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -3046,35 +3046,35 @@
               "name": "신창호",
               "index": 23.9,
               "volume": 940,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "전주연",
               "index": 22.2,
               "volume": 1480,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "박이추",
               "index": 4.9,
               "volume": 1240,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "김사홍",
               "index": 2.5,
               "volume": 550,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "방현영",
               "index": 0,
               "volume": 530,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 8,
@@ -3580,56 +3580,56 @@
               "name": "Fiorenzato F64E",
               "index": 100,
               "volume": 20,
-              "delta": 7
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Mahlkonig EK43",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Mahlkonig E65S",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Ditting KR804",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Anfim SP2",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Compak K10",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Nuova Simonelli Mythos",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "Victoria Arduino Mythos One",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -3654,56 +3654,56 @@
               "name": "Fiorenzato F64E",
               "index": 100,
               "volume": 20,
-              "delta": 7
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Mahlkonig EK43",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Mahlkonig E65S",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Ditting KR804",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Anfim SP2",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Compak K10",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Nuova Simonelli Mythos",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "Victoria Arduino Mythos One",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -3728,56 +3728,56 @@
               "name": "Fiorenzato F64E",
               "index": 100,
               "volume": 20,
-              "delta": 7
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Mahlkonig EK43",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Mahlkonig E65S",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Ditting KR804",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Anfim SP2",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Compak K10",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Nuova Simonelli Mythos",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "Victoria Arduino Mythos One",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -3809,49 +3809,49 @@
               "name": "Fiorenzato F64E",
               "index": 100,
               "volume": 20,
-              "delta": 6
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Mahlkonig E65S",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Ditting KR804",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Anfim SP2",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Compak K10",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Nuova Simonelli Mythos",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "Victoria Arduino Mythos One",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -3963,42 +3963,42 @@
               "name": "WMF 1500S+",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Schaerer Coffee Art Plus",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Egro One",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Melitta Cafina XT6",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "La Cimbali S30",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Necta",
               "index": 0,
               "volume": 80,
-              "delta": -5
+              "delta": 0
             },
             {
               "rank": 8,
@@ -5715,42 +5715,42 @@
               "name": "De'Longhi Magnifica",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Breville Barista Express",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Philips LatteGo",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "지멜코스타",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "Saeco",
               "index": 0,
               "volume": 90,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "Gaggia",
               "index": 0,
               "volume": 140,
-              "delta": -5
+              "delta": 0
             },
             {
               "rank": 10,
@@ -5768,63 +5768,63 @@
               "name": "Smeg",
               "index": 77.7,
               "volume": 1640,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Nespresso",
               "index": 25.4,
               "volume": 650,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Jura",
               "index": 15.7,
               "volume": 390,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Gaggia",
               "index": 12.7,
               "volume": 140,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "De'Longhi Magnifica",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Breville Barista Express",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Philips LatteGo",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "지멜코스타",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "Saeco",
               "index": 0,
               "volume": 90,
-              "delta": -8
+              "delta": 0
             },
             {
               "rank": 10,
@@ -6010,49 +6010,49 @@
               "name": "클레버 드리퍼",
               "index": 31.8,
               "volume": 680,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "블루보틀 드리퍼",
               "index": 31.8,
               "volume": 850,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "하리오 V60 드리퍼",
               "index": 27.8,
               "volume": 510,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "고노 드리퍼",
               "index": 22.2,
               "volume": 380,
-              "delta": 3
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "하리오 스위치 드리퍼",
               "index": 15.2,
               "volume": 370,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "칼리타 웨이브 드리퍼",
               "index": 11.1,
               "volume": 310,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "케맥스 드리퍼",
               "index": 9.7,
               "volume": 290,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 10,
@@ -6105,28 +6105,28 @@
               "name": "하리오 V60 드리퍼",
               "index": 9.8,
               "volume": 510,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "칼리타 웨이브 드리퍼",
               "index": 9.2,
               "volume": 310,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "고노 드리퍼",
               "index": 7.4,
               "volume": 380,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "케맥스 드리퍼",
               "index": 6.6,
               "volume": 290,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 10,
@@ -6186,14 +6186,14 @@
               "name": "고노 드리퍼",
               "index": 9.1,
               "volume": 380,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "칼리타 웨이브 드리퍼",
               "index": 8.7,
               "volume": 310,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,

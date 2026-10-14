@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T05:52:19.893Z",
+  "generatedAt": "2026-10-14T14:21:27.425Z",
   "categories": {
     "green-bean-specialty": {
       "title": "생두 · 스페셜티",
@@ -12,14 +12,14 @@
               "name": "파나마 게이샤",
               "index": 100,
               "volume": 2660,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "케냐 AA",
               "index": 90.1,
               "volume": 2430,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
@@ -616,7 +616,7 @@
               "name": "테라로사 원두",
               "index": 100,
               "volume": 3430,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 2,
@@ -630,7 +630,7 @@
               "name": "모모스커피 원두",
               "index": 99.3,
               "volume": 4880,
-              "delta": -2
+              "delta": 0
             },
             {
               "rank": 4,
@@ -651,14 +651,14 @@
               "name": "프릳츠 커피 원두",
               "index": 4.4,
               "volume": 330,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "앤트러사이트 원두",
               "index": 0,
               "volume": 230,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
@@ -939,28 +939,28 @@
               "name": "스타벅스 비아 인스턴트",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "일리 이지에스프레소 캡슐",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "조지아 크래프트 RTD",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "커피빈 드립백",
               "index": 0,
               "volume": 120,
-              "delta": -3
+              "delta": 0
             },
             {
               "rank": 8,
@@ -1262,14 +1262,14 @@
               "name": "피스타치오 라떼",
               "index": 4.1,
               "volume": 510,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "흑당라떼",
               "index": 3.6,
               "volume": 630,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -1368,14 +1368,14 @@
               "name": "콜드브루",
               "index": 71,
               "volume": 17230,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "아인슈페너",
               "index": 70.8,
               "volume": 15790,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
@@ -1912,21 +1912,21 @@
               "name": "넉박스",
               "index": 49.2,
               "volume": 1390,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "샷글라스",
               "index": 45.3,
               "volume": 350,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "커피 온도계",
               "index": 35,
               "volume": 270,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
@@ -1972,35 +1972,35 @@
               "name": "디스트리뷰터",
               "index": 59.3,
               "volume": 2060,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "탬퍼",
               "index": 53.4,
               "volume": 1720,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "넉박스",
               "index": 42.3,
               "volume": 1390,
-              "delta": 2
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "샷글라스",
               "index": 40.3,
               "volume": 350,
-              "delta": -3
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "커피 온도계",
               "index": 33.3,
               "volume": 270,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
@@ -2140,14 +2140,14 @@
               "name": "테라로사",
               "index": 53.1,
               "volume": 62510,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "나무사이로",
               "index": 51.3,
               "volume": 8350,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
@@ -2470,14 +2470,14 @@
               "name": "커피빈",
               "index": 22.3,
               "volume": 54280,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "할리스",
               "index": 21.3,
               "volume": 50540,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -3092,14 +3092,14 @@
               "name": "강훈",
               "index": 77.1,
               "volume": 32690,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "임정환",
               "index": 62.6,
               "volume": 3410,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
@@ -3127,14 +3127,14 @@
               "name": "박이추",
               "index": 4.4,
               "volume": 1410,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "서필훈",
               "index": 3,
               "volume": 80,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
@@ -3173,28 +3173,28 @@
               "name": "방현영",
               "index": 11.7,
               "volume": 580,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "전주연",
               "index": 11.6,
               "volume": 900,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "박이추",
               "index": 2.5,
               "volume": 1410,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "서필훈",
               "index": 2.1,
               "volume": 80,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
@@ -5694,63 +5694,63 @@
               "name": "Nespresso",
               "index": 100,
               "volume": 730,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 2,
               "name": "Smeg",
               "index": 84.1,
               "volume": 1610,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Gaggia",
               "index": 13.6,
               "volume": 120,
-              "delta": 6
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Jura",
               "index": 13.6,
               "volume": 340,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "De'Longhi Magnifica",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Breville Barista Express",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Philips LatteGo",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "지멜코스타",
               "index": 0,
               "volume": 10,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "Saeco",
               "index": 0,
               "volume": 80,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 10,
@@ -6024,35 +6024,35 @@
               "name": "하리오 V60 드리퍼",
               "index": 23.3,
               "volume": 440,
-              "delta": 4
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "하리오 스위치 드리퍼",
               "index": 19.1,
               "volume": 300,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "케맥스 드리퍼",
               "index": 15,
               "volume": 220,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "칼리타 웨이브 드리퍼",
               "index": 13.3,
               "volume": 340,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
               "name": "고노 드리퍼",
               "index": 10,
               "volume": 370,
-              "delta": -3
+              "delta": 0
             },
             {
               "rank": 10,
@@ -6112,14 +6112,14 @@
               "name": "하리오 V60 드리퍼",
               "index": 11.8,
               "volume": 440,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "칼리타 웨이브 드리퍼",
               "index": 11.2,
               "volume": 340,
-              "delta": -1
+              "delta": 0
             },
             {
               "rank": 9,
@@ -6527,49 +6527,49 @@
               "name": "Acaia Lunar",
               "index": 71.4,
               "volume": 15,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 3,
               "name": "Timemore Black Mirror",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 4,
               "name": "Timemore Nano",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 5,
               "name": "Hario V60 Drip Scale",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 6,
               "name": "Brewista Smart Scale",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 7,
               "name": "Coffee Sensor Scale",
               "index": 0,
               "volume": 10,
-              "delta": 1
+              "delta": 0
             },
             {
               "rank": 8,
               "name": "디지털 커피저울",
               "index": 0,
               "volume": 10,
-              "delta": -6
+              "delta": 0
             },
             {
               "rank": 9,
